@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="logo.jpg" type="image/png">
+    <link rel="icon" href="./logo.jpg" type="image/png">
     <title>About Me | Duong Le</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -101,7 +101,6 @@
             border-color: var(--primary);
         }
 
-        /* Animation cho Avatar */
         .avatar-container:hover img {
             transform: scale(1.05);
         }
@@ -136,9 +135,8 @@
             
             <div class="avatar-container shrink-0 relative group">
                 <div class="absolute inset-0 bg-emerald-500/20 blur-3xl rounded-full transform group-hover:bg-emerald-500/30 transition-all duration-500"></div>
-                
                 <div class="relative w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-white shadow-2xl overflow-hidden">
-                    <img src="avt.png" 
+                    <img src="./avt.png" 
                          alt="Le Duong Avatar" 
                          class="w-full h-full object-cover transition-transform duration-500">
                 </div>
@@ -146,7 +144,7 @@
 
             <div class="text-center md:text-left flex-grow">
                 <div class="inline-block px-3 py-1 rounded-full bg-slate-100 border border-slate-200 text-slate-500 text-[10px] font-bold tracking-widest uppercase mb-6" data-i18n="hero-tag">
-                    AI Engineer | AI Researcher
+                    AI Engineer | LLM & Agent Systems
                 </div>
                 
                 <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight uppercase text-slate-900">
@@ -154,11 +152,11 @@
                 </h1>
                 
                 <p class="text-lg md:text-xl text-slate-600 leading-relaxed mb-6" data-i18n="hero-desc-1">
-                    AI Engineer with experience in applied deep learning and machine learning systems. Hands-on in representation learning, production ML deployment on AWS, and automated retraining pipelines with regulatory awareness (FDA, ISO 13485). 
+                    AI Engineer with 2+ years of experience building production AI systems across Computer Vision, Time-series data, LLM agent pipelines, RAG architectures, multi-agent orchestration (LangGraph)
                 </p>
                 
                 <p class="text-slate-500 leading-relaxed mb-10" data-i18n="hero-desc-2">
-                    Strong background in <span class="text-slate-900 font-semibold">signal processing, NLP, and end-to-end ML system development.</span>
+                    Strong background in <span class="text-slate-900 font-semibold"> end-to-end ML/DL systems, prompt engineering, vector search and structured LLM output validation</span>
                 </p>
                 
                 <div class="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-4 text-sm text-slate-500 mb-10">
@@ -183,7 +181,7 @@
                 </div>
 
                 <div class="flex justify-center md:justify-start gap-4">
-                    <a href="https://www.linkedin.com/in/le-duong-04080a2a1" target="_blank" class="px-6 py-3 bg-white hover:bg-slate-50 hover:translate-y-[-2px] rounded-xl transition-all border border-slate-200 shadow-sm hover:shadow-md flex items-center gap-2 font-bold text-sm text-slate-700">
+                    <a href="https://www.linkedin.com/in/le-duong" target="_blank" class="px-6 py-3 bg-white hover:bg-slate-50 hover:translate-y-[-2px] rounded-xl transition-all border border-slate-200 shadow-sm hover:shadow-md flex items-center gap-2 font-bold text-sm text-slate-700">
                         <i class="fab fa-linkedin text-emerald-600 text-lg"></i> LinkedIn
                     </a>
                     <a href="https://github.com/LeDuong2408" target="_blank" class="px-6 py-3 bg-white hover:bg-slate-50 hover:translate-y-[-2px] rounded-xl transition-all border border-slate-200 shadow-sm hover:shadow-md flex items-center gap-2 font-bold text-sm text-slate-700">
@@ -242,7 +240,7 @@
     </section>
 
     <footer class="py-12 border-t border-slate-200 text-center text-slate-500 text-[10px] mono uppercase tracking-[0.3em]">
-        <p data-i18n="footer-text">&copy; 2025 Le Duong — AI Engineer Portfolio</p>
+        <p data-i18n="footer-text">&copy; 2026 Le Duong — AI Engineer Portfolio</p>
     </footer>
 
     <script>
@@ -252,10 +250,10 @@
                 "nav-expertise": "Education & Skills",
                 "nav-experience": "Experience",
                 "nav-projects": "Projects",
-                "hero-tag": "AI Engineer | AI Researcher",
+                "hero-tag": "AI Engineer | LLM & Agent Systems",
                 "hero-name": "LE DUONG",
-                "hero-desc-1": "AI Engineer with experience in applied deep learning and machine learning systems. Hands-on in representation learning, production ML deployment on AWS, and automated retraining pipelines with regulatory awareness (FDA, ISO 13485).",
-                "hero-desc-2": "Strong background in <span class='text-slate-900 font-semibold'>signal processing, NLP, and end-to-end ML system development.</span>",
+                "hero-desc-1": "AI Engineer with 2+ years of experience building production AI systems across Computer Vision, Time-series data, LLM agent pipelines, RAG architectures, multi-agent orchestration (LangGraph)",
+                "hero-desc-2": "Strong background in <span class='text-slate-900 font-semibold'> end-to-end ML/DL systems, prompt engineering, vector search and structured LLM output validation.</span>",
                 "title-edu": "Education",
                 "edu-uni": "Ho Chi Minh City University of Technology and Education (HCMUTE)",
                 "edu-major": "Major: Artificial Intelligence",
@@ -264,69 +262,78 @@
                 "title-skills": "Technical Skills",
                 "title-exp": "Work Experience",
                 "title-projects": "Key Projects",
-                "footer-text": "© 2025 Le Duong — AI Engineer Portfolio",
+                "footer-text": "© 2026 Le Duong — AI Engineer Portfolio",
                 "skills": [
-                    { icon: "fa-brain", label: "Deep Learning", value: "PyTorch, TensorFlow, LangChain, HuggingFace" },
-                    { icon: "fa-wave-square", label: "Signal Processing", value: "ECG analysis, wavelet denoising, SNR calculation" },
-                    { icon: "fa-language", label: "NLP & Speech", value: "RAG, FastSpeech2, PhoBERT, ELECTRA, NER, HiFi-GAN" },
-                    { icon: "fa-rocket", label: "MLOps & Deployment", value: "TorchServe, AWS, Jenkins, DVC, MinIO" },
-                    { icon: "fa-code", label: "Engineering", value: "Python, Git, Docker, REST APIs" },
-                    { icon: "fa-globe", label: "Languages", value: "Vietnamese (Native), English (Technical)" }
+                    { icon: "fa-language", label: "LLM & NLP", value: "LangChain, LangGraph, RAG, Prompt Engineering, Transformers" },
+                    { icon: "fa-eye", label: "Computer Vision", value: "Object Detection, Multi-Object Tracking, Ultralytics, PyTorch" },
+                    { icon: "fa-rocket", label: "MLOps & Serving", value: "NVIDIA Triton, TorchServe, Jenkins, CML, DVC, Docker" },
+                    { icon: "fa-server", label: "Backend & Cloud", value: "FastAPI, Django REST Framework, AWS, Azure DevOps" },
+                    { icon: "fa-microchip", label: "Edge & Optim.", value: "TorchScript, FP16, Dynamic Batching, RKNN/ONNX" },
+                    { icon: "fa-code", label: "Engineering", value: "Python, C++, SQL, Bash, Git, Linux" }
                 ],
                 "experiences": [
                     {
-                        role: "AI Researcher",
-                        company: "IMPACT TECHNICAL RESOURCES (ITRVN)",
-                        url: "https://www.itrvn.com/",
-                        period: "10/2024 — Present",
-                        desc: "ITRVN is a MedTech company specializing in digital health and wearable ECG devices.",
+                        role: "AI Engineer (Contract)",
+                        company: "FOIS ICT Pro",
+                        period: "04/2026 — Present",
+                        desc: "Technology company specializing in ICT solutions and software development.",
                         bullets: [
-                            "Designed and trained a 1D ResNet-based encoder for ECG signals (over <span class='text-slate-900 font-bold'>2.3M patient-hours</span>) using <span class='text-slate-900 font-bold'>NT-Xent contrastive loss</span>.",
-                            "Applied Transfer Learning for multi-task cardiac rhythm classification, achieving <span class='text-emerald-700 font-bold'>95% F1-score for AFib detection</span>.",
-                            "Optimized model architecture reducing inference latency by <span class='text-emerald-700 font-bold'>28.5%</span>.",
-                            "Unified processing and classification into a single <span class='text-slate-900 font-bold'>TorchScript graph</span> for <span class='text-slate-900 font-bold'>AWS TorchServe</span>.",
-                            "Built automated retraining pipeline using <span class='text-slate-900 font-bold'>Jenkins, DVC, and MinIO</span>, compliant with <span class='text-slate-900 font-bold'>FDA & ISO 13485</span>.",
-                            "Developed ECG QA system achieving <span class='text-emerald-700 font-bold'>96% agreement</span> with cardiologist gold standards.",
-                            "Authored model documentation (<span class='text-slate-900 font-bold'>Design History File</span>) for FDA regulatory submissions."
+                            "Built a <span class='text-slate-900 font-bold'>YOLOv11-based cherry detection pipeline</span> with Deep-SORT multi-object tracking for real-time agricultural monitoring.",
+                            "Established a semi-automatic annotation workflow and drove model retraining cycles to ensure dataset quality.",
+                            "Exported object detection models to <span class='text-slate-900 font-bold'>ONNX and RKNN formats</span> for cross-platform and edge deployment.",
+                            "Built an end-to-end MLOps backend integrating <span class='text-slate-900 font-bold'>Azure Service Bus & Azure ML</span> for asynchronous inference and automated retraining jobs."
+                        ]
+                    },
+                    {
+                        role: "AI Engineer",
+                        company: "IMPACT TECHNICAL RESOURCES (ITRVN)",
+                        period: "10/2024 — 03/2026",
+                        desc: "MedTech company specializing in digital health and medical device solutions.",
+                        bullets: [
+                            "Pretrained a time-series foundation model via <span class='text-slate-900 font-bold'>contrastive self-supervised learning (1D ResNet)</span> on large-scale unlabeled ECG data, achieving <span class='text-emerald-700 font-bold'>95% F1 on AFib detection</span>.",
+                            "Co-developed a <span class='text-slate-900 font-bold'>RAG-based clinical chatbot</span> leveraging pretrained ECG embeddings for semantic retrieval.",
+                            "Deployed unified multi-head models with <span class='text-slate-900 font-bold'>AWS TorchServe</span>, reducing end-to-end inference latency by <span class='text-emerald-700 font-bold'>28.5%</span>.",
+                            "Optimized serving via TorchScript graph optimization, FP16 inference, and <span class='text-slate-900 font-bold'>NVIDIA Triton dynamic batching</span>.",
+                            "Built CI/CD-native MLOps pipeline with <span class='text-slate-900 font-bold'>Jenkins + CML</span> for automated retraining and metric reporting.",
+                            "Authored model documentation compliant with <span class='text-slate-900 font-bold'>FDA and ISO 13485</span> standards."
                         ]
                     },
                     {
                         role: "AI Engineer Intern",
-                        company: "THE INSTITUTE OF TELECOMMUNICATION TECHNOLOGY (VNITT)",
-                        period: "03/2024 — 09/2024",
+                        company: "Institute of Telecommunication Technology (VNITT)",
+                        period: "06/2024 — 09/2024",
                         bullets: [
-                            "Developed real-time people counting and tracking using <span class='text-slate-900 font-bold'>MobileNetSSD</span> and Centroid Tracking.",
-                            "Implemented multi-camera processing pipeline to synchronize tracking across views.",
-                            "Trained CNN-based fire detection model with automated email alerts.",
-                            "Built web dashboard using <span class='text-slate-900 font-bold'>Django</span> for real-time statistics visualization."
+                            "Developed an AI-powered people counting system (<span class='text-slate-900 font-bold'>MobileNetSSD + Centroid Tracking</span>) for real-time movement analysis at 25 FPS.",
+                            "Implemented a multi-camera processing pipeline enabling synchronized tracking across IP cameras.",
+                            "Designed and trained a CNN-based fire detection model with automated alerting (<span class='text-emerald-700 font-bold'>98% accuracy</span>).",
+                            "Built web-based analytics dashboard (Django) and RESTful APIs with <1s end-to-end latency."
                         ]
                     }
                 ],
                 "projects": [
                     {
-                        name: "Vietnamese Text-to-Speech (Academic)",
-                        desc: "Developed a high-quality Vietnamese text-to-speech system for visually impaired users.",
-                        repo: "https://github.com/LeDuong2408/Text-to-Speech-Vietnamese-FastSpeech2",
-                        tags: ["Python", "FastSpeech2", "HiFi-GAN", "Transformers"],
+                        name: "HR CV Scanner (Multi-Agent System)",
+                        desc: "Automated multi-agent CV screening system: upload batch CVs -> parse JD -> match -> report.",
+                        repo: "https://github.com/LeDuong2408",
+                        tags: ["LangGraph", "Gemini API", "RAG", "ChromaDB", "FastAPI"],
                         details: [
-                            "Lead developer responsible for model selection, training, and integration.",
-                            "Researched text normalization, phonetic processing, and prosody modeling.",
-                            "Designed automated audio segmentation and alignment tools.",
-                            "Built customized Transformer-based acoustic model adapted from FastSpeech2.",
-                            "Integrated HiFi-GAN vocoder for high-quality speech waveforms."
+                            "Architected a <span class='text-slate-900 font-bold'>4-node LangGraph agentic pipeline</span> with typed Pydantic v2 state contracts.",
+                            "Built a RAG layer using <span class='text-slate-900 font-bold'>ChromaDB</span> + all-MiniLM embeddings to retrieve JD requirements and scoring rubrics.",
+                            "Designed a hybrid scoring engine combining programmatic skill matching with LLM evaluation to eliminate score drift.",
+                            "Developed a <span class='text-slate-900 font-bold'>FastAPI backend</span> with SSE streaming for real-time pipeline progress and Chainlit chat UI.",
+                            "Structured prompt engineering with JSON-only constraints and retry-aware prompt augmentation."
                         ]
                     },
                     {
-                        name: "Chess AI (Academic)",
-                        desc: "Developed a self-play reinforcement learning chess agent inspired by the AlphaZero framework.",
-                        repo: "https://github.com/LeDuong2408/Chess-AI",
-                        tags: ["Reinforcement Learning", "AlphaZero", "MCTS", "Angular"],
+                        name: "Vietnamese Text-to-Speech (TTS)",
+                        desc: "End-to-end Vietnamese TTS system for visually impaired users (Specialized essay project).",
+                        repo: "https://github.com/LeDuong2408/Text-to-Speech-Vietnamese",
+                        tags: ["FastSpeech2", "HiFi-GAN", "Transformers", "Python"],
                         details: [
-                            "Led design of custom chess environment and action space.",
-                            "Designed and trained dual-head CNN (Policy & Value heads).",
-                            "Implemented MCTS integrated with NN for self-play training.",
-                            "Coordinated hyperparameter tuning using Apache Zeppelin.",
-                            "Developed Angular web interface for Human-AI gameplay."
+                            "Led technical design of text normalization, Vietnamese phonetic processing, and prosody modeling.",
+                            "Built automated audio segmentation and text-audio alignment tooling to validate dataset quality.",
+                            "Trained Transformer-based <span class='text-slate-900 font-bold'>FastSpeech2</span> acoustic model.",
+                            "Integrated <span class='text-slate-900 font-bold'>HiFi-GAN vocoder</span> to convert mel-spectrograms to high-fidelity speech waveforms."
                         ]
                     }
                 ]
@@ -336,10 +343,10 @@
                 "nav-expertise": "Học vấn & Kỹ năng",
                 "nav-experience": "Kinh nghiệm",
                 "nav-projects": "Dự án",
-                "hero-tag": "Kỹ sư AI | Nhà nghiên cứu AI",
+                "hero-tag": "Kỹ sư AI | LLM & Hệ thống Agent",
                 "hero-name": "LÊ DƯỠNG",
-                "hero-desc-1": "Kỹ sư AI với kinh nghiệm trong lĩnh vực Deep Learning ứng dụng và hệ thống Machine Learning. Có kinh nghiệm thực tiễn về Representation Learning, triển khai mô hình lên AWS và xây dựng pipeline tự động huấn luyện lại theo tiêu chuẩn y tế (FDA, ISO 13485).",
-                "hero-desc-2": "Nền tảng vững chắc về <span class='text-slate-900 font-semibold'>xử lý tín hiệu, NLP và phát triển hệ thống ML đầu-cuối (end-to-end).</span>",
+                "hero-desc-1": "Kỹ sư AI với hơn 2 năm kinh nghiệm xây dựng các hệ thống AI thực tế, chuyên sâu về Thị giác máy tính, dữ liệu time-series và pipeline LLM Agent, kiến trúc RAG, điều phối đa tác tử (LangGraph) và Computer Vision.",
+                "hero-desc-2": "Nền tảng vững chắc về <span class='text-slate-900 font-semibold'>end-to-end hệ thống mô hình AI và Prompt Engineering, Vector Search, trích xuất dữ liệu LLM có cấu trúc.</span>",
                 "title-edu": "Học vấn",
                 "edu-uni": "Trường Đại học Sư phạm Kỹ thuật TP.HCM (HCMUTE)",
                 "edu-major": "Chuyên ngành: Trí tuệ nhân tạo",
@@ -348,69 +355,78 @@
                 "title-skills": "Kỹ năng chuyên môn",
                 "title-exp": "Kinh nghiệm làm việc",
                 "title-projects": "Dự án tiêu biểu",
-                "footer-text": "© 2025 Lê Dưỡng — AI Engineer Portfolio",
+                "footer-text": "© 2026 Lê Dưỡng — AI Engineer Portfolio",
                 "skills": [
-                    { icon: "fa-brain", label: "Deep Learning", value: "PyTorch, TensorFlow, LangChain, HuggingFace" },
-                    { icon: "fa-wave-square", label: "Xử lý tín hiệu", value: "Phân tích ECG, wavelet denoising, tính toán SNR" },
-                    { icon: "fa-language", label: "NLP & Speech", value: "RAG, FastSpeech2, PhoBERT, ELECTRA, NER, HiFi-GAN" },
-                    { icon: "fa-rocket", label: "MLOps & Triển khai", value: "TorchServe, AWS, Jenkins, DVC, MinIO" },
-                    { icon: "fa-code", label: "Kỹ thuật phần mềm", value: "Python, Git, Docker, REST APIs" },
-                    { icon: "fa-globe", label: "Ngoại ngữ", value: "Tiếng Việt (Bản ngữ), Tiếng Anh (Chuyên ngành)" }
+                    { icon: "fa-language", label: "LLM & NLP", value: "LangChain, LangGraph, RAG, Prompt Engineering, Transformers" },
+                    { icon: "fa-eye", label: "Computer Vision", value: "Object Detection, Multi-Object Tracking, Ultralytics, PyTorch" },
+                    { icon: "fa-rocket", label: "MLOps & Triển khai", value: "NVIDIA Triton, TorchServe, Jenkins, CML, DVC, Docker" },
+                    { icon: "fa-server", label: "Backend & Cloud", value: "FastAPI, Django REST Framework, AWS, Azure DevOps" },
+                    { icon: "fa-microchip", label: "Tối ưu hóa (Edge)", value: "TorchScript, FP16, Dynamic Batching, RKNN/ONNX" },
+                    { icon: "fa-code", label: "Kỹ thuật phần mềm", value: "Python, C++, SQL, Bash, Git, Linux" }
                 ],
                 "experiences": [
                     {
-                        role: "AI Researcher",
-                        company: "IMPACT TECHNICAL RESOURCES (ITRVN)",
-                        url: "https://www.itrvn.com/",
-                        period: "10/2024 — Hiện tại",
-                        desc: "ITRVN là công ty MedTech chuyên về sức khỏe kỹ thuật số và thiết bị ECG đeo tay.",
+                        role: "Kỹ sư AI (Hợp đồng)",
+                        company: "FOIS ICT Pro",
+                        period: "04/2026 — Hiện tại",
+                        desc: "Công ty công nghệ chuyên cung cấp các giải pháp ICT và phát triển phần mềm.",
                         bullets: [
-                            "Thiết kế và huấn luyện bộ mã hóa dựa trên 1D ResNet cho tín hiệu ECG (hơn <span class='text-slate-900 font-bold'>2.3 triệu giờ bệnh nhân</span>) sử dụng <span class='text-slate-900 font-bold'>NT-Xent contrastive loss</span>.",
-                            "Áp dụng Transfer Learning để phân loại nhịp tim đa nhiệm, đạt <span class='text-emerald-700 font-bold'>F1-score 95% trong phát hiện Rung nhĩ (AFib)</span>.",
-                            "Tối ưu hóa kiến trúc mô hình giúp giảm độ trễ suy luận xuống <span class='text-emerald-700 font-bold'>28.5%</span>.",
-                            "Hợp nhất xử lý và phân loại thành một <span class='text-slate-900 font-bold'>TorchScript graph</span> duy nhất để triển khai trên <span class='text-slate-900 font-bold'>AWS TorchServe</span>.",
-                            "Xây dựng pipeline tự động huấn luyện lại bằng <span class='text-slate-900 font-bold'>Jenkins, DVC và MinIO</span>, tuân thủ tiêu chuẩn <span class='text-slate-900 font-bold'>FDA & ISO 13485</span>.",
-                            "Phát triển hệ thống QA tín hiệu ECG đạt độ tương đồng <span class='text-emerald-700 font-bold'>96%</span> so với tiêu chuẩn vàng của bác sĩ tim mạch.",
-                            "Soạn thảo tài liệu kỹ thuật mô hình (<span class='text-slate-900 font-bold'>Design History File</span>) phục vụ hồ sơ cấp phép FDA."
+                            "Xây dựng pipeline phát hiện đối tượng với <span class='text-slate-900 font-bold'>YOLOv11 và theo dõi đa đối tượng Deep-SORT</span> dùng trong giám sát nông nghiệp thời gian thực.",
+                            "Thiết lập quy trình gán nhãn bán tự động và thúc đẩy các chu kỳ huấn luyện lại mô hình để đảm bảo chất lượng dữ liệu.",
+                            "Xuất mô hình phát hiện đối tượng sang định dạng <span class='text-slate-900 font-bold'>ONNX và RKNN</span> để triển khai trên các thiết bị Edge đa nền tảng.",
+                            "Xây dựng hệ thống MLOps backend end-to-end tích hợp <span class='text-slate-900 font-bold'>Azure Service Bus & Azure ML</span> phục vụ suy luận bất đồng bộ và tự động hóa huấn luyện."
+                        ]
+                    },
+                    {
+                        role: "Kỹ sư AI",
+                        company: "IMPACT TECHNICAL RESOURCES (ITRVN)",
+                        period: "10/2024 — 03/2026",
+                        desc: "Công ty MedTech chuyên về giải pháp sức khỏe kỹ thuật số và thiết bị y tế.",
+                        bullets: [
+                            "Huấn luyện trước (Pretrain) mô hình nền tảng chuỗi thời gian bằng <span class='text-slate-900 font-bold'>học tự giám sát (1D ResNet)</span> trên tập dữ liệu ECG lớn, đạt <span class='text-emerald-700 font-bold'>F1-score 95% phát hiện Rung nhĩ (AFib)</span>.",
+                            "Đồng phát triển <span class='text-slate-900 font-bold'>chatbot lâm sàng dựa trên RAG</span> tận dụng vector đặc trưng của ECG để truy xuất ngữ nghĩa.",
+                            "Triển khai các mô hình đa nhiệm lên <span class='text-slate-900 font-bold'>AWS TorchServe</span>, giảm <span class='text-emerald-700 font-bold'>28.5%</span> độ trễ suy luận end-to-end.",
+                            "Tối ưu hóa serving thông qua TorchScript, FP16 và <span class='text-slate-900 font-bold'>NVIDIA Triton dynamic batching</span>.",
+                            "Xây dựng pipeline CI/CD MLOps với <span class='text-slate-900 font-bold'>Jenkins + CML</span> để tự động huấn luyện lại và báo cáo metric.",
+                            "Soạn thảo tài liệu mô hình tuân thủ các tiêu chuẩn y tế khắt khe của <span class='text-slate-900 font-bold'>FDA và ISO 13485</span>."
                         ]
                     },
                     {
                         role: "Thực tập sinh Kỹ sư AI",
-                        company: "VIỆN CÔNG NGHỆ VIỄN THÔNG (VNITT)",
+                        company: "Viện Công nghệ Viễn thông (VNITT)",
                         period: "06/2024 — 09/2024",
                         bullets: [
-                            "Phát triển hệ thống đếm và theo dõi người thời gian thực bằng <span class='text-slate-900 font-bold'>MobileNetSSD</span> và thuật toán Centroid Tracking.",
-                            "Triển khai pipeline xử lý đa camera để đồng bộ hóa theo dõi trên nhiều góc nhìn khác nhau.",
-                            "Huấn luyện mô hình phát hiện hỏa hoạn dựa trên CNN và tích hợp cảnh báo qua email tự động.",
-                            "Xây dựng bảng điều khiển web bằng <span class='text-slate-900 font-bold'>Django</span> để trực quan hóa thống kê thời gian thực."
+                            "Phát triển hệ thống đếm và theo dõi người thời gian thực (<span class='text-slate-900 font-bold'>MobileNetSSD + Centroid Tracking</span>) đạt tốc độ 25 FPS.",
+                            "Triển khai pipeline xử lý đa camera để đồng bộ hóa theo dõi trên nhiều camera IP.",
+                            "Thiết kế và huấn luyện mô hình phát hiện hỏa hoạn dựa trên CNN tích hợp cảnh báo tự động (<span class='text-emerald-700 font-bold'>độ chính xác 98%</span>).",
+                            "Xây dựng dashboard phân tích trên web (Django) và RESTful APIs với độ trễ dưới 1s."
                         ]
                     }
                 ],
                 "projects": [
                     {
-                        name: "Chuyển đổi văn bản thành giọng nói Tiếng Việt",
-                        desc: "Phát triển hệ thống TTS tiếng Việt chất lượng cao hỗ trợ người khiếm thị.",
-                        repo: "https://github.com/LeDuong2408/Text-to-Speech-Vietnamese-FastSpeech2",
-                        tags: ["Python", "FastSpeech2", "HiFi-GAN", "Transformers"],
+                        name: "Hệ thống Quét CV Nhân sự (Đa tác tử)",
+                        desc: "Hệ thống sàng lọc CV đa tác tử tự động: Tải CV hàng loạt -> phân tích JD -> đối chiếu -> báo cáo.",
+                        repo: "https://github.com/LeDuong2408",
+                        tags: ["LangGraph", "Gemini API", "RAG", "ChromaDB", "FastAPI"],
                         details: [
-                            "Trưởng nhóm kỹ thuật chịu trách nhiệm chọn mô hình, huấn luyện và tích hợp.",
-                            "Nghiên cứu tối ưu hóa chuẩn hóa văn bản, xử lý ngữ âm và mô hình hóa âm điệu.",
-                            "Thiết kế công cụ tự động phân đoạn âm thanh và căn chỉnh văn bản - âm thanh.",
-                            "Xây dựng mô hình acoustic dựa trên Transformer tùy chỉnh từ FastSpeech2.",
-                            "Tích hợp HiFi-GAN vocoder để tạo ra dạng sóng giọng nói chất lượng cao."
+                            "Thiết kế kiến trúc pipeline đa tác tử gồm <span class='text-slate-900 font-bold'>4-node LangGraph</span> với dữ liệu trạng thái chuẩn hóa bằng Pydantic v2.",
+                            "Xây dựng lớp RAG sử dụng <span class='text-slate-900 font-bold'>ChromaDB</span> và all-MiniLM để truy xuất các yêu cầu của JD và tiêu chí chấm điểm.",
+                            "Thiết kế công cụ chấm điểm lai: kết hợp thuật toán khớp kỹ năng với đánh giá bằng LLM để loại bỏ sự sai lệch (drift) của LLM.",
+                            "Phát triển <span class='text-slate-900 font-bold'>FastAPI backend</span> với SSE streaming để theo dõi tiến trình thời gian thực và giao diện chat Chainlit.",
+                            "Kỹ thuật Prompt Engineering có cấu trúc với định dạng JSON bắt buộc và cơ chế tự động sửa lỗi (retry-aware)."
                         ]
                     },
                     {
-                        name: "AI Chơi Cờ Vua (Đồ án học thuật)",
-                        desc: "Phát triển tác nhân cờ vua học tăng cường tự chơi lấy cảm hứng từ khung làm việc AlphaZero.",
-                        repo: "https://github.com/LeDuong2408/Chess-AI",
-                        tags: ["Reinforcement Learning", "AlphaZero", "MCTS", "Angular"],
+                        name: "Chuyển đổi văn bản thành giọng nói (TTS) Tiếng Việt",
+                        desc: "Hệ thống TTS tiếng Việt hoàn chỉnh hỗ trợ người khiếm thị (Đồ án chuyên ngành).",
+                        repo: "https://github.com/LeDuong2408/Text-to-Speech-Vietnamese",
+                        tags: ["FastSpeech2", "HiFi-GAN", "Transformers", "Python"],
                         details: [
-                            "Dẫn dắt thiết kế môi trường cờ vua tùy chỉnh và không gian hành động.",
-                            "Thiết kế và huấn luyện CNN đầu kép (Policy & Value heads).",
-                            "Triển khai Monte Carlo Tree Search (MCTS) tích hợp với mạng thần kinh.",
-                            "Phối hợp tinh chỉnh siêu tham số sử dụng Apache Zeppelin.",
-                            "Phát triển giao diện web bằng Angular để người dùng đấu với AI."
+                            "Thiết kế kỹ thuật chuẩn hóa văn bản, xử lý âm vị học tiếng Việt và mô hình hóa âm điệu.",
+                            "Xây dựng công cụ phân đoạn âm thanh và căn chỉnh văn bản - âm thanh tự động để kiểm tra chất lượng dữ liệu.",
+                            "Huấn luyện mô hình acoustic <span class='text-slate-900 font-bold'>FastSpeech2</span> dựa trên kiến trúc Transformer.",
+                            "Tích hợp <span class='text-slate-900 font-bold'>HiFi-GAN vocoder</span> để chuyển đổi mel-spectrograms thành dạng sóng giọng nói chất lượng cao."
                         ]
                     }
                 ]
