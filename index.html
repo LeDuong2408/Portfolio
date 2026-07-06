@@ -152,11 +152,11 @@
                 </h1>
                 
                 <p class="text-lg md:text-xl text-slate-600 leading-relaxed mb-6" data-i18n="hero-desc-1">
-                    AI Engineer with 2+ years of experience building production AI systems across Computer Vision, Time-series data, LLM agent pipelines, RAG architectures, multi-agent orchestration (LangGraph)
+                    AI Engineer with 2+ years of experience building production AI systems across LLM agent pipelines, RAG architectures, multi-agent orchestration (LangGraph), and computer vision.
                 </p>
                 
                 <p class="text-slate-500 leading-relaxed mb-10" data-i18n="hero-desc-2">
-                    Strong background in <span class="text-slate-900 font-semibold"> end-to-end ML/DL systems, prompt engineering, vector search and structured LLM output validation</span>
+                    Strong background in <span class="text-slate-900 font-semibold">prompt engineering, vector search, structured LLM output validation, and end-to-end MLOps.</span>
                 </p>
                 
                 <div class="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-4 text-sm text-slate-500 mb-10">
@@ -239,6 +239,18 @@
             </div>
     </section>
 
+    <section id="other-projects" class="pb-20 px-6 max-w-5xl mx-auto">
+        <h2 class="section-title" data-i18n="title-other-projects">Other Notable Projects</h2>
+        <div class="grid md:grid-cols-2 gap-6" id="other-projects-list">
+            </div>
+        <div class="mt-10 text-center">
+            <a href="https://github.com/LeDuong2408?tab=repositories" target="_blank" class="inline-flex items-center gap-2 px-6 py-3 bg-white hover:bg-slate-50 hover:translate-y-[-2px] rounded-xl transition-all border border-slate-200 shadow-sm hover:shadow-md font-bold text-sm text-slate-700">
+                <i class="fab fa-github text-emerald-600 text-lg"></i>
+                <span data-i18n="view-all-github">View All Projects on GitHub</span>
+            </a>
+        </div>
+    </section>
+
     <footer class="py-12 border-t border-slate-200 text-center text-slate-500 text-[10px] mono uppercase tracking-[0.3em]">
         <p data-i18n="footer-text">&copy; 2026 Le Duong — AI Engineer Portfolio</p>
     </footer>
@@ -252,8 +264,8 @@
                 "nav-projects": "Projects",
                 "hero-tag": "AI Engineer | LLM & Agent Systems",
                 "hero-name": "LE DUONG",
-                "hero-desc-1": "AI Engineer with 2+ years of experience building production AI systems across Computer Vision, Time-series data, LLM agent pipelines, RAG architectures, multi-agent orchestration (LangGraph)",
-                "hero-desc-2": "Strong background in <span class='text-slate-900 font-semibold'> end-to-end ML/DL systems, prompt engineering, vector search and structured LLM output validation.</span>",
+                "hero-desc-1": "AI Engineer with 2+ years of experience building production AI systems across LLM agent pipelines, RAG architectures, multi-agent orchestration (LangGraph), and computer vision.",
+                "hero-desc-2": "Strong background in <span class='text-slate-900 font-semibold'>prompt engineering, vector search, structured LLM output validation, and end-to-end MLOps.</span>",
                 "title-edu": "Education",
                 "edu-uni": "Ho Chi Minh City University of Technology and Education (HCMUTE)",
                 "edu-major": "Major: Artificial Intelligence",
@@ -262,14 +274,18 @@
                 "title-skills": "Technical Skills",
                 "title-exp": "Work Experience",
                 "title-projects": "Key Projects",
+                "title-other-projects": "Other Notable Projects",
+                "view-all-github": "View All Projects on GitHub",
                 "footer-text": "© 2026 Le Duong — AI Engineer Portfolio",
                 "skills": [
-                    { icon: "fa-language", label: "LLM & NLP", value: "LangChain, LangGraph, RAG, Prompt Engineering, Transformers" },
-                    { icon: "fa-eye", label: "Computer Vision", value: "Object Detection, Multi-Object Tracking, Ultralytics, PyTorch" },
-                    { icon: "fa-rocket", label: "MLOps & Serving", value: "NVIDIA Triton, TorchServe, Jenkins, CML, DVC, Docker" },
-                    { icon: "fa-server", label: "Backend & Cloud", value: "FastAPI, Django REST Framework, AWS, Azure DevOps" },
-                    { icon: "fa-microchip", label: "Edge & Optim.", value: "TorchScript, FP16, Dynamic Batching, RKNN/ONNX" },
-                    { icon: "fa-code", label: "Engineering", value: "Python, C++, SQL, Bash, Git, Linux" }
+                    { icon: "fa-layer-group", label: "Frameworks", value: "LangChain, LangGraph, Transformers, PyTorch, TensorFlow / TFLite, Ultralytics" },
+                    { icon: "fa-language", label: "NLP Domains", value: "Multi-Agent Systems, RAG, Prompt Engineering, Speech Recognition (ASR), NER" },
+                    { icon: "fa-eye", label: "CV Domains", value: "Object Detection, Multi-Object Tracking, OCR & Text Spotting, Multi-camera Pipeline" },
+                    { icon: "fa-microchip", label: "Edge & Optimization", value: "TorchScript, FP16, Dynamic Batching, RKNN/ONNX export, Raspberry Pi deployment" },
+                    { icon: "fa-rocket", label: "MLOps & Serving", value: "NVIDIA Triton, TorchServe, Jenkins, CML, DVC, MinIO, Docker" },
+                    { icon: "fa-server", label: "Backend & Cloud", value: "Django REST Framework, FastAPI, REST API, AWS, Azure DevOps" },
+                    { icon: "fa-code", label: "Engineering", value: "Python, Git, SQL Server, C++, Linux, Bash scripting, GPU management" },
+                    { icon: "fa-globe", label: "Languages", value: "Vietnamese (Native), English (Technical)" }
                 ],
                 "experiences": [
                     {
@@ -290,10 +306,11 @@
                         period: "10/2024 — 03/2026",
                         desc: "MedTech company specializing in digital health and medical device solutions.",
                         bullets: [
-                            "Pretrained a time-series foundation model via <span class='text-slate-900 font-bold'>contrastive self-supervised learning (1D ResNet)</span> on large-scale unlabeled ECG data, achieving <span class='text-emerald-700 font-bold'>95% F1 on AFib detection</span>.",
-                            "Co-developed a <span class='text-slate-900 font-bold'>RAG-based clinical chatbot</span> leveraging pretrained ECG embeddings for semantic retrieval.",
+                            "Pretrained a time-series foundation model via <span class='text-slate-900 font-bold'>contrastive self-supervised learning (1D ResNet)</span> on large-scale unlabeled ECG data — improving ventricular beat F1 by <span class='text-emerald-700 font-bold'>+4pp</span> and supraventricular beat F1 by <span class='text-emerald-700 font-bold'>+18pp</span> on EC57/MIT, achieving <span class='text-emerald-700 font-bold'>95% F1 on AFib detection</span> and 98–100% F1 on AVB2.",
+                            "Co-developed a <span class='text-slate-900 font-bold'>RAG-based clinical chatbot</span> leveraging pretrained ECG embeddings for semantic retrieval and ECG-to-text alignment.",
                             "Deployed unified multi-head models with <span class='text-slate-900 font-bold'>AWS TorchServe</span>, reducing end-to-end inference latency by <span class='text-emerald-700 font-bold'>28.5%</span>.",
                             "Optimized serving via TorchScript graph optimization, FP16 inference, and <span class='text-slate-900 font-bold'>NVIDIA Triton dynamic batching</span>.",
+                            "Implemented a multi-stage <span class='text-slate-900 font-bold'>ECG signal quality assessment pipeline</span> (noise detection, wavelet-based SNR, baseline drift), achieving <2ms real-time channel selection and <span class='text-emerald-700 font-bold'>96% agreement with cardiologists</span> (n=1,017).",
                             "Built CI/CD-native MLOps pipeline with <span class='text-slate-900 font-bold'>Jenkins + CML</span> for automated retraining and metric reporting.",
                             "Authored model documentation compliant with <span class='text-slate-900 font-bold'>FDA and ISO 13485</span> standards."
                         ]
@@ -314,7 +331,7 @@
                     {
                         name: "HR CV Scanner (Multi-Agent System)",
                         desc: "Automated multi-agent CV screening system: upload batch CVs -> parse JD -> match -> report.",
-                        repo: "https://github.com/LeDuong2408",
+                        repo: "https://github.com/LeDuong2408/HR-Scan-CV",
                         tags: ["LangGraph", "Gemini API", "RAG", "ChromaDB", "FastAPI"],
                         details: [
                             "Architected a <span class='text-slate-900 font-bold'>4-node LangGraph agentic pipeline</span> with typed Pydantic v2 state contracts.",
@@ -327,7 +344,7 @@
                     {
                         name: "Vietnamese Text-to-Speech (TTS)",
                         desc: "End-to-end Vietnamese TTS system for visually impaired users (Specialized essay project).",
-                        repo: "https://github.com/LeDuong2408/Text-to-Speech-Vietnamese",
+                        repo: "https://github.com/LeDuong2408/Text-to-Speech-Vietnamese-FastSpeech2",
                         tags: ["FastSpeech2", "HiFi-GAN", "Transformers", "Python"],
                         details: [
                             "Led technical design of text normalization, Vietnamese phonetic processing, and prosody modeling.",
@@ -335,6 +352,32 @@
                             "Trained Transformer-based <span class='text-slate-900 font-bold'>FastSpeech2</span> acoustic model.",
                             "Integrated <span class='text-slate-900 font-bold'>HiFi-GAN vocoder</span> to convert mel-spectrograms to high-fidelity speech waveforms."
                         ]
+                    }
+                ],
+                "otherProjects": [
+                    {
+                        name: "RAG PDF Chatbot",
+                        desc: "Retrieval-augmented question-answering chatbot that lets users query academic papers and get grounded, source-based answers.",
+                        repo: "https://github.com/LeDuong2408/Chatbot",
+                        tags: ["LangChain", "FastAPI", "Llama-2-7B", "RAG"]
+                    },
+                    {
+                        name: "Sign Recognition & Understanding",
+                        desc: "Multi-stage pipeline detecting and reading signage text, then using an LLM to understand and structure the extracted Vietnamese content.",
+                        repo: "https://github.com/LeDuong2408/sign-recognition",
+                        tags: ["YOLOv8", "ABCNetv2", "VietOCR", "ELECTRA", "Gemini API"]
+                    },
+                    {
+                        name: "Autonomous Vehicle (Raspberry Pi)",
+                        desc: "Self-driving RC vehicle combining CNN-based traffic-sign classification, OpenCV lane detection, and ultrasonic obstacle avoidance.",
+                        repo: "https://github.com/LeDuong2408/Automation-Vehicle",
+                        tags: ["Raspberry Pi", "OpenCV", "CNN", "Embedded"]
+                    },
+                    {
+                        name: "Chess AI (AlphaZero-style)",
+                        desc: "Self-play chess engine combining a deep policy/value network with Monte Carlo Tree Search for position evaluation and move selection.",
+                        repo: "https://github.com/LeDuong2408/Chess-AI",
+                        tags: ["AlphaZero", "MCTS", "PyTorch", "Self-Play"]
                     }
                 ]
             },
@@ -345,8 +388,8 @@
                 "nav-projects": "Dự án",
                 "hero-tag": "Kỹ sư AI | LLM & Hệ thống Agent",
                 "hero-name": "LÊ DƯỠNG",
-                "hero-desc-1": "Kỹ sư AI với hơn 2 năm kinh nghiệm xây dựng các hệ thống AI thực tế, chuyên sâu về Thị giác máy tính, dữ liệu time-series và pipeline LLM Agent, kiến trúc RAG, điều phối đa tác tử (LangGraph) và Computer Vision.",
-                "hero-desc-2": "Nền tảng vững chắc về <span class='text-slate-900 font-semibold'>end-to-end hệ thống mô hình AI và Prompt Engineering, Vector Search, trích xuất dữ liệu LLM có cấu trúc.</span>",
+                "hero-desc-1": "Kỹ sư AI với hơn 2 năm kinh nghiệm xây dựng các hệ thống AI thực tế, chuyên sâu về pipeline LLM Agent, kiến trúc RAG, điều phối đa tác tử (LangGraph) và Computer Vision.",
+                "hero-desc-2": "Nền tảng vững chắc về <span class='text-slate-900 font-semibold'>Prompt Engineering, Vector Search, trích xuất dữ liệu LLM có cấu trúc và hệ thống mô hình end-to-end.</span>",
                 "title-edu": "Học vấn",
                 "edu-uni": "Trường Đại học Sư phạm Kỹ thuật TP.HCM (HCMUTE)",
                 "edu-major": "Chuyên ngành: Trí tuệ nhân tạo",
@@ -355,14 +398,18 @@
                 "title-skills": "Kỹ năng chuyên môn",
                 "title-exp": "Kinh nghiệm làm việc",
                 "title-projects": "Dự án tiêu biểu",
+                "title-other-projects": "Dự án khác",
+                "view-all-github": "Xem tất cả dự án trên GitHub",
                 "footer-text": "© 2026 Lê Dưỡng — AI Engineer Portfolio",
                 "skills": [
-                    { icon: "fa-language", label: "LLM & NLP", value: "LangChain, LangGraph, RAG, Prompt Engineering, Transformers" },
-                    { icon: "fa-eye", label: "Computer Vision", value: "Object Detection, Multi-Object Tracking, Ultralytics, PyTorch" },
-                    { icon: "fa-rocket", label: "MLOps & Triển khai", value: "NVIDIA Triton, TorchServe, Jenkins, CML, DVC, Docker" },
-                    { icon: "fa-server", label: "Backend & Cloud", value: "FastAPI, Django REST Framework, AWS, Azure DevOps" },
-                    { icon: "fa-microchip", label: "Tối ưu hóa (Edge)", value: "TorchScript, FP16, Dynamic Batching, RKNN/ONNX" },
-                    { icon: "fa-code", label: "Kỹ thuật phần mềm", value: "Python, C++, SQL, Bash, Git, Linux" }
+                    { icon: "fa-layer-group", label: "Frameworks", value: "LangChain, LangGraph, Transformers, PyTorch, TensorFlow / TFLite, Ultralytics" },
+                    { icon: "fa-language", label: "Mảng NLP", value: "Hệ thống đa tác tử, RAG, Prompt Engineering, Nhận dạng giọng nói (ASR), NER" },
+                    { icon: "fa-eye", label: "Mảng Computer Vision", value: "Object Detection, Multi-Object Tracking, OCR & Text Spotting, Multi-camera Pipeline" },
+                    { icon: "fa-microchip", label: "Tối ưu hóa (Edge)", value: "TorchScript, FP16, Dynamic Batching, xuất RKNN/ONNX, triển khai trên Raspberry Pi" },
+                    { icon: "fa-rocket", label: "MLOps & Triển khai", value: "NVIDIA Triton, TorchServe, Jenkins, CML, DVC, MinIO, Docker" },
+                    { icon: "fa-server", label: "Backend & Cloud", value: "Django REST Framework, FastAPI, REST API, AWS, Azure DevOps" },
+                    { icon: "fa-code", label: "Kỹ thuật phần mềm", value: "Python, Git, SQL Server, C++, Linux, Bash scripting, quản lý GPU" },
+                    { icon: "fa-globe", label: "Ngôn ngữ", value: "Tiếng Việt (Bản ngữ), Tiếng Anh (Chuyên ngành)" }
                 ],
                 "experiences": [
                     {
@@ -383,10 +430,11 @@
                         period: "10/2024 — 03/2026",
                         desc: "Công ty MedTech chuyên về giải pháp sức khỏe kỹ thuật số và thiết bị y tế.",
                         bullets: [
-                            "Huấn luyện trước (Pretrain) mô hình nền tảng chuỗi thời gian bằng <span class='text-slate-900 font-bold'>học tự giám sát (1D ResNet)</span> trên tập dữ liệu ECG lớn, đạt <span class='text-emerald-700 font-bold'>F1-score 95% phát hiện Rung nhĩ (AFib)</span>.",
-                            "Đồng phát triển <span class='text-slate-900 font-bold'>chatbot lâm sàng dựa trên RAG</span> tận dụng vector đặc trưng của ECG để truy xuất ngữ nghĩa.",
+                            "Huấn luyện trước (Pretrain) mô hình nền tảng chuỗi thời gian bằng <span class='text-slate-900 font-bold'>học tự giám sát (1D ResNet)</span> trên tập dữ liệu ECG lớn — cải thiện F1 nhịp thất <span class='text-emerald-700 font-bold'>+4pp</span> và F1 nhịp trên thất <span class='text-emerald-700 font-bold'>+18pp</span> trên EC57/MIT, đạt <span class='text-emerald-700 font-bold'>F1-score 95% phát hiện Rung nhĩ (AFib)</span> và 98–100% F1 trên AVB2.",
+                            "Đồng phát triển <span class='text-slate-900 font-bold'>chatbot lâm sàng dựa trên RAG</span> tận dụng vector đặc trưng của ECG để truy xuất ngữ nghĩa và căn chỉnh ECG-văn bản.",
                             "Triển khai các mô hình đa nhiệm lên <span class='text-slate-900 font-bold'>AWS TorchServe</span>, giảm <span class='text-emerald-700 font-bold'>28.5%</span> độ trễ suy luận end-to-end.",
                             "Tối ưu hóa serving thông qua TorchScript, FP16 và <span class='text-slate-900 font-bold'>NVIDIA Triton dynamic batching</span>.",
+                            "Xây dựng pipeline <span class='text-slate-900 font-bold'>đánh giá chất lượng tín hiệu ECG</span> đa giai đoạn (phát hiện nhiễu, SNR theo wavelet, trôi baseline), đạt thời gian chọn kênh thực <2ms và <span class='text-emerald-700 font-bold'>96% đồng thuận với bác sĩ tim mạch</span> (n=1.017).",
                             "Xây dựng pipeline CI/CD MLOps với <span class='text-slate-900 font-bold'>Jenkins + CML</span> để tự động huấn luyện lại và báo cáo metric.",
                             "Soạn thảo tài liệu mô hình tuân thủ các tiêu chuẩn y tế khắt khe của <span class='text-slate-900 font-bold'>FDA và ISO 13485</span>."
                         ]
@@ -407,7 +455,7 @@
                     {
                         name: "Hệ thống Quét CV Nhân sự (Đa tác tử)",
                         desc: "Hệ thống sàng lọc CV đa tác tử tự động: Tải CV hàng loạt -> phân tích JD -> đối chiếu -> báo cáo.",
-                        repo: "https://github.com/LeDuong2408",
+                        repo: "https://github.com/LeDuong2408/HR-Scan-CV",
                         tags: ["LangGraph", "Gemini API", "RAG", "ChromaDB", "FastAPI"],
                         details: [
                             "Thiết kế kiến trúc pipeline đa tác tử gồm <span class='text-slate-900 font-bold'>4-node LangGraph</span> với dữ liệu trạng thái chuẩn hóa bằng Pydantic v2.",
@@ -420,7 +468,7 @@
                     {
                         name: "Chuyển đổi văn bản thành giọng nói (TTS) Tiếng Việt",
                         desc: "Hệ thống TTS tiếng Việt hoàn chỉnh hỗ trợ người khiếm thị (Đồ án chuyên ngành).",
-                        repo: "https://github.com/LeDuong2408/Text-to-Speech-Vietnamese",
+                        repo: "https://github.com/LeDuong2408/Text-to-Speech-Vietnamese-FastSpeech2",
                         tags: ["FastSpeech2", "HiFi-GAN", "Transformers", "Python"],
                         details: [
                             "Thiết kế kỹ thuật chuẩn hóa văn bản, xử lý âm vị học tiếng Việt và mô hình hóa âm điệu.",
@@ -428,6 +476,32 @@
                             "Huấn luyện mô hình acoustic <span class='text-slate-900 font-bold'>FastSpeech2</span> dựa trên kiến trúc Transformer.",
                             "Tích hợp <span class='text-slate-900 font-bold'>HiFi-GAN vocoder</span> để chuyển đổi mel-spectrograms thành dạng sóng giọng nói chất lượng cao."
                         ]
+                    }
+                ],
+                "otherProjects": [
+                    {
+                        name: "Chatbot hỏi-đáp tài liệu (RAG)",
+                        desc: "Chatbot hỏi-đáp dựa trên RAG cho phép người dùng truy vấn các bài báo học thuật và nhận câu trả lời có trích dẫn nguồn.",
+                        repo: "https://github.com/LeDuong2408/Chatbot",
+                        tags: ["LangChain", "FastAPI", "Llama-2-7B", "RAG"]
+                    },
+                    {
+                        name: "Nhận diện & Hiểu biển báo/bảng hiệu",
+                        desc: "Pipeline nhiều giai đoạn phát hiện và đọc chữ trên biển báo, sau đó dùng LLM để hiểu và cấu trúc hóa nội dung tiếng Việt trích xuất được.",
+                        repo: "https://github.com/LeDuong2408/sign-recognition",
+                        tags: ["YOLOv8", "ABCNetv2", "VietOCR", "ELECTRA", "Gemini API"]
+                    },
+                    {
+                        name: "Xe tự hành (Raspberry Pi)",
+                        desc: "Xe RC tự hành kết hợp phân loại biển báo giao thông bằng CNN, phát hiện làn đường với OpenCV và tránh vật cản bằng cảm biến siêu âm.",
+                        repo: "https://github.com/LeDuong2408/Automation-Vehicle",
+                        tags: ["Raspberry Pi", "OpenCV", "CNN", "Nhúng"]
+                    },
+                    {
+                        name: "Chess AI (kiểu AlphaZero)",
+                        desc: "Engine cờ vua tự học kết hợp mạng nơ-ron sâu (policy/value network) với Monte Carlo Tree Search để đánh giá thế cờ và chọn nước đi.",
+                        repo: "https://github.com/LeDuong2408/Chess-AI",
+                        tags: ["AlphaZero", "MCTS", "PyTorch", "Self-Play"]
                     }
                 ]
             }
@@ -489,6 +563,22 @@
                         <ul class="grid md:grid-cols-2 gap-x-10 gap-y-3 text-slate-600 text-[14px]">
                             ${p.details.map(d => `<li class="flex gap-3"><span>•</span> <span>${d}</span></li>`).join('')}
                         </ul>
+                    </div>
+                </div>
+            `).join('');
+
+            const otherProjectsList = document.getElementById('other-projects-list');
+            otherProjectsList.innerHTML = content.otherProjects.map(p => `
+                <div class="glass-card p-6 rounded-2xl">
+                    <div class="flex items-start justify-between gap-3 mb-3">
+                        <h4 class="text-lg font-bold text-slate-900">${p.name}</h4>
+                        <a href="${p.repo}" target="_blank" class="text-slate-400 hover:text-emerald-600 transition-colors shrink-0">
+                            <i class="fab fa-github text-xl"></i>
+                        </a>
+                    </div>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-4">${p.desc}</p>
+                    <div class="flex flex-wrap gap-2 mt-auto">
+                        ${p.tags.map(t => `<span class="achievement-tag">${t}</span>`).join('')}
                     </div>
                 </div>
             `).join('');
