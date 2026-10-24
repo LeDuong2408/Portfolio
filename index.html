@@ -152,11 +152,11 @@
                 </h1>
                 
                 <p class="text-lg md:text-xl text-slate-600 leading-relaxed mb-6" data-i18n="hero-desc-1">
-                    AI Engineer with 2+ years of experience building production AI systems across LLM agent pipelines, RAG architectures, multi-agent orchestration (LangGraph), and computer vision.
+                    AI Engineer with 2+ years of experience shipping production AI, now focused on Large Language Models: long-term memory, RAG, LangGraph agents and LLM evaluation. Background in computer vision, edge AI and medical AI.
                 </p>
-                
+
                 <p class="text-slate-500 leading-relaxed mb-10" data-i18n="hero-desc-2">
-                    Strong background in <span class="text-slate-900 font-semibold">prompt engineering, vector search, structured LLM output validation, and end-to-end MLOps.</span>
+                    Strong in <span class="text-slate-900 font-semibold">RAG, tool calling, structured output, prompt engineering and LLM evaluation</span>, backed by production engineering <span class="text-slate-900 font-semibold">(async Python, 1,275 tests, CI/CD)</span>.
                 </p>
                 
                 <div class="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-4 text-sm text-slate-500 mb-10">
@@ -181,7 +181,7 @@
                 </div>
 
                 <div class="flex justify-center md:justify-start gap-4">
-                    <a href="https://www.linkedin.com/in/le-duong" target="_blank" class="px-6 py-3 bg-white hover:bg-slate-50 hover:translate-y-[-2px] rounded-xl transition-all border border-slate-200 shadow-sm hover:shadow-md flex items-center gap-2 font-bold text-sm text-slate-700">
+                    <a href="https://www.linkedin.com/in/le-duong-04080a2a1" target="_blank" class="px-6 py-3 bg-white hover:bg-slate-50 hover:translate-y-[-2px] rounded-xl transition-all border border-slate-200 shadow-sm hover:shadow-md flex items-center gap-2 font-bold text-sm text-slate-700">
                         <i class="fab fa-linkedin text-emerald-600 text-lg"></i> LinkedIn
                     </a>
                     <a href="https://github.com/LeDuong2408" target="_blank" class="px-6 py-3 bg-white hover:bg-slate-50 hover:translate-y-[-2px] rounded-xl transition-all border border-slate-200 shadow-sm hover:shadow-md flex items-center gap-2 font-bold text-sm text-slate-700">
@@ -200,7 +200,8 @@
                     <div class="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 blur-3xl rounded-full"></div>
                     <div class="relative">
                         <h3 class="text-xl font-bold text-slate-900 leading-tight" data-i18n="edu-uni">Ho Chi Minh City University of Technology and Education (HCMUTE)</h3>
-                        <p class="text-emerald-600 font-semibold mt-3" data-i18n="edu-major">Major: Artificial Intelligence</p>
+                        <p class="text-emerald-600 font-semibold mt-3" data-i18n="edu-major">Bachelor's Degree in Artificial Intelligence</p>
+                        <p class="text-slate-500 text-sm mt-3 leading-relaxed" data-i18n="edu-coursework">Coursework: Deep Learning (A+), Big Data (A+), Embedded Systems (A+), Machine Learning (A), Image Processing (A)</p>
                         <div class="mt-8 flex flex-wrap items-center justify-between gap-4">
                             <div class="flex flex-col">
                                 <span class="text-slate-400 text-[10px] uppercase tracking-widest mb-1" data-i18n="edu-gpa-label">Academic Standing</span>
@@ -210,6 +211,10 @@
                                 <span class="text-slate-400 text-[10px] uppercase tracking-widest mb-1" data-i18n="edu-date-label">Duration</span>
                                 <span class="text-slate-600 mono text-sm font-medium">09/2021 — 07/2025</span>
                             </div>
+                        </div>
+                        <div class="mt-8 pt-6 border-t border-slate-200">
+                            <span class="text-slate-400 text-[10px] uppercase tracking-widest" data-i18n="edu-cert-label">Certification</span>
+                            <p class="text-slate-700 text-sm font-medium mt-1 flex gap-2"><i class="fas fa-certificate text-emerald-600 mt-1"></i><span data-i18n="edu-cert">Fundamentals of Digital Image and Video Processing — Northwestern University (Coursera), 2023</span></p>
                         </div>
                     </div>
                 </div>
@@ -264,13 +269,16 @@
                 "nav-projects": "Projects",
                 "hero-tag": "AI Engineer | LLM & Agent Systems",
                 "hero-name": "LE DUONG",
-                "hero-desc-1": "AI Engineer with 2+ years of experience building production AI systems across LLM agent pipelines, RAG architectures, multi-agent orchestration (LangGraph), and computer vision.",
-                "hero-desc-2": "Strong background in <span class='text-slate-900 font-semibold'>prompt engineering, vector search, structured LLM output validation, and end-to-end MLOps.</span>",
+                "hero-desc-1": "AI Engineer with 2+ years of experience shipping production AI, now focused on Large Language Models: long-term memory, RAG, LangGraph agents and LLM evaluation. Background in computer vision, edge AI and medical AI.",
+                "hero-desc-2": "Strong in <span class='text-slate-900 font-semibold'>RAG, tool calling, structured output, prompt engineering and LLM evaluation</span>, backed by production engineering <span class='text-slate-900 font-semibold'>(async Python, 1,275 tests, CI/CD)</span>.",
                 "title-edu": "Education",
                 "edu-uni": "Ho Chi Minh City University of Technology and Education (HCMUTE)",
-                "edu-major": "Major: Artificial Intelligence",
+                "edu-major": "Bachelor's Degree in Artificial Intelligence",
                 "edu-gpa-label": "Academic Standing",
                 "edu-date-label": "Duration",
+                "edu-coursework": "Coursework: Deep Learning (A+), Big Data (A+), Embedded Systems (A+), Machine Learning (A), Image Processing (A)",
+                "edu-cert-label": "Certification",
+                "edu-cert": "Fundamentals of Digital Image and Video Processing — Northwestern University (Coursera), 2023",
                 "title-skills": "Technical Skills",
                 "title-exp": "Work Experience",
                 "title-projects": "Key Projects",
@@ -278,41 +286,72 @@
                 "view-all-github": "View All Projects on GitHub",
                 "footer-text": "© 2026 Le Duong — AI Engineer Portfolio",
                 "skills": [
-                    { icon: "fa-layer-group", label: "Frameworks", value: "LangChain, LangGraph, Transformers, PyTorch, TensorFlow / TFLite, Ultralytics" },
-                    { icon: "fa-language", label: "NLP Domains", value: "Multi-Agent Systems, RAG, Prompt Engineering, Speech Recognition (ASR), NER" },
-                    { icon: "fa-eye", label: "CV Domains", value: "Object Detection, Multi-Object Tracking, OCR & Text Spotting, Multi-camera Pipeline" },
-                    { icon: "fa-microchip", label: "Edge & Optimization", value: "TorchScript, FP16, Dynamic Batching, RKNN/ONNX export, Raspberry Pi deployment" },
-                    { icon: "fa-rocket", label: "MLOps & Serving", value: "NVIDIA Triton, TorchServe, Jenkins, CML, DVC, MinIO, Docker" },
-                    { icon: "fa-server", label: "Backend & Cloud", value: "Django REST Framework, FastAPI, REST API, AWS, Azure DevOps" },
-                    { icon: "fa-code", label: "Engineering", value: "Python, Git, SQL Server, C++, Linux, Bash scripting, GPU management" },
-                    { icon: "fa-globe", label: "Languages", value: "Vietnamese (Native), English (Technical)" }
+                    { icon: "fa-robot", label: "LLM & Agents", value: "LangGraph, LangChain, multi-agent systems, tool/function calling, MCP, structured output, prompt engineering, reasoning models" },
+                    { icon: "fa-database", label: "Retrieval & Memory", value: "RAG, vector search (Qdrant, ChromaDB), embeddings, long-term memory" },
+                    { icon: "fa-cloud", label: "LLM Platforms & Evaluation", value: "Azure OpenAI (GPT-4o-mini, GPT-5.x), Azure AI Foundry, Google Gemini, Anthropic Claude; LLM-as-a-judge, golden test sets, Langfuse tracing" },
+                    { icon: "fa-language", label: "NLP & Speech", value: "Transformers, NER, Speech Recognition (ASR), Text-to-Speech (FastSpeech2, HiFi-GAN)" },
+                    { icon: "fa-eye", label: "Computer Vision & Edge", value: "YOLO (Ultralytics), Deep-SORT tracking, OCR & text spotting, OpenCV, multi-camera pipelines, ONNX, RKNN (INT8/FP16), NVIDIA Jetson Orin, Raspberry Pi, TF Lite" },
+                    { icon: "fa-layer-group", label: "ML & Serving", value: "PyTorch, TensorFlow, self-supervised & reinforcement learning, NumPy, Pandas, TorchScript, TorchServe, NVIDIA Triton (FP16, dynamic batching)" },
+                    { icon: "fa-server", label: "Backend & Cloud", value: "Python (async), FastAPI, Django REST Framework, PostgreSQL, SQL Server, SQLAlchemy/Alembic, Docker, Azure (ML, Service Bus, DevOps), AWS (S3, SQS)" },
+                    { icon: "fa-code", label: "Engineering & MLOps", value: "CI/CD, TDD, mypy, Git, Linux, Bash, Jenkins, CML, DVC, MinIO, ADRs, GPU management, C++ (academic); Claude Code & Codex daily" },
+                    { icon: "fa-globe", label: "Languages", value: "Vietnamese (Native), English (Intermediate — worked directly with US clients)" }
                 ],
                 "experiences": [
                     {
+                        role: "AI Engineer",
+                        company: "AiDi",
+                        url: "https://www.aidi.world",
+                        period: "07/2026 — Present",
+                        desc: "Human-centric AI startup in Ho Chi Minh City; products: REFMI (AI learning for students) and Nbrain (AI companion with long-term memory).",
+                        groups: [
+                            {
+                                title: "Nbrain: Long-term Memory & Reflection Chat",
+                                stack: "Python, FastAPI, PostgreSQL, Azure AI Foundry, Gemini, MCP",
+                                bullets: [
+                                    "Built the <span class='text-slate-900 font-bold'>long-term user memory</span>: a <span class='text-slate-900 font-bold'>two-stage LLM pipeline</span> turns chats into quoted evidence and versioned user facts, reaching <span class='text-emerald-700 font-bold'>87% exact extraction</span> with <span class='text-emerald-700 font-bold'>zero false (hallucinated) memories</span>.",
+                                    "Personalized replies won <span class='text-emerald-700 font-bold'>76% of blind pairwise</span> <span class='text-slate-900 font-bold'>LLM-as-a-judge</span> comparisons; memory reads stay LLM-free within a <span class='text-emerald-700 font-bold'>3 s budget</span>, so a failure never blocks a reply.",
+                                    "Designed the <span class='text-slate-900 font-bold'>reflection chat flow</span> and its CBT/ACT/DBT-based empathy prompt; cut turn latency from <span class='text-emerald-700 font-bold'>21.5 s to 8.3 s</span> by parallelizing LLM calls and tuning reasoning effort.",
+                                    "Built <span class='text-slate-900 font-bold'>RAG with tool calling</span> and source-cited Q&A over <span class='text-slate-900 font-bold'>Qdrant vector search</span>; to curb hallucination, every claim must cite retrieved evidence and claims whose citation does not match it are dropped, raising cited claims <span class='text-emerald-700 font-bold'>3.5×</span> and cutting unused retrieved evidence from <span class='text-emerald-700 font-bold'>79% to 40%</span>.",
+                                    "Shipped it to <span class='text-emerald-700 font-bold'>60 internal users</span> as a production service with an <span class='text-slate-900 font-bold'>MCP server</span>, memory APIs (view, edit, forget, export, erase), a Postgres job queue and <span class='text-slate-900 font-bold'>CI/CD to Azure</span>; <span class='text-emerald-700 font-bold'>1,275 tests at 98% coverage</span>; <span class='text-slate-900 font-bold'>Langfuse</span> tracing for monitoring, debugging and prompt tuning."
+                                ]
+                            },
+                            {
+                                title: "REFMI: AI Homework Tutor & Wellbeing Chat",
+                                stack: "LangGraph, Azure OpenAI (GPT-4o-mini, GPT-5.x), Chainlit",
+                                bullets: [
+                                    "Built learner adaptation for a <span class='text-slate-900 font-bold'>Socratic homework tutor agent</span>: the LLM diagnoses each turn and deterministic code sets the support level, with <span class='text-emerald-700 font-bold'>zero extra LLM calls</span> (no added LLM cost).",
+                                    "Raised correct support-level tutoring behavior from <span class='text-emerald-700 font-bold'>53% to 95%</span> with <span class='text-slate-900 font-bold'>level-specific prompts and validated self-repair</span>; on the hardest level from <span class='text-emerald-700 font-bold'>20% to 100%</span>.",
+                                    "Added an <span class='text-slate-900 font-bold'>answer-leak guardrail</span> and <span class='text-slate-900 font-bold'>prerequisite backtracking</span> so the tutor guides students instead of solving for them."
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         role: "AI Engineer (Contract)",
                         company: "FOIS ICT Pro",
-                        period: "04/2026 — Present",
-                        desc: "Technology company specializing in ICT solutions and software development.",
+                        url: "https://foisictpro.com/en/",
+                        period: "04/2026 — 06/2026",
+                        desc: "ICT solutions company; project: AI quality grading for a cherry packing line. Worked directly with US clients in English throughout the project.",
                         bullets: [
-                            "Built a <span class='text-slate-900 font-bold'>YOLOv11-based cherry detection pipeline</span> with Deep-SORT multi-object tracking for real-time agricultural monitoring.",
-                            "Established a semi-automatic annotation workflow and drove model retraining cycles to ensure dataset quality.",
-                            "Exported object detection models to <span class='text-slate-900 font-bold'>ONNX and RKNN formats</span> for cross-platform and edge deployment.",
-                            "Built an end-to-end MLOps backend integrating <span class='text-slate-900 font-bold'>Azure Service Bus & Azure ML</span> for asynchronous inference and automated retraining jobs."
+                            "Trained <span class='text-slate-900 font-bold'>YOLO11-L</span> to detect and grade cherries into 4 quality classes at <span class='text-emerald-700 font-bold'>0.952 mAP50 / 0.928 mAP50-95</span>, deployed on <span class='text-slate-900 font-bold'>Azure</span>; a 2-class good/defect model reached <span class='text-emerald-700 font-bold'>0.985 mAP50</span>.",
+                            "Grew the dataset to <span class='text-emerald-700 font-bold'>3,584 images and ~119k labeled objects</span> over 7 versions and 12 fine-tuning runs in 8 weeks via a semi-automatic <span class='text-slate-900 font-bold'>auto-labeling</span> workflow, <span class='text-slate-900 font-bold'>Grounding DINO</span> and hard-example mining in Roboflow.",
+                            "Exported models to <span class='text-slate-900 font-bold'>ONNX and RKNN (INT8/FP16)</span> for the <span class='text-slate-900 font-bold'>Rockchip RK3588 NPU</span> with a Dockerized toolchain; trained and tested on an NVIDIA Jetson Orin GPU.",
+                            "Built the <span class='text-slate-900 font-bold'>Azure MLOps backend</span> (Service Bus, Azure Machine Learning): async inference, real-time <span class='text-slate-900 font-bold'>Deep-SORT tracking</span> across video clips, retraining jobs and model registration."
                         ]
                     },
                     {
                         role: "AI Engineer",
                         company: "IMPACT TECHNICAL RESOURCES (ITRVN)",
+                        url: "https://www.itrvn.com/",
                         period: "10/2024 — 03/2026",
-                        desc: "MedTech company specializing in digital health and medical device solutions.",
+                        desc: "MedTech company (digital health, medical devices) building ECG AI for Holter monitoring; reported directly to the CEO and AI lead (20+ years in healthcare AI).",
                         bullets: [
-                            "Pretrained a time-series foundation model via <span class='text-slate-900 font-bold'>contrastive self-supervised learning (1D ResNet)</span> on large-scale unlabeled ECG data — improving ventricular beat F1 by <span class='text-emerald-700 font-bold'>+4pp</span> and supraventricular beat F1 by <span class='text-emerald-700 font-bold'>+18pp</span> on EC57/MIT, achieving <span class='text-emerald-700 font-bold'>95% F1 on AFib detection</span> and 98–100% F1 on AVB2.",
-                            "Co-developed a <span class='text-slate-900 font-bold'>RAG-based clinical chatbot</span> leveraging pretrained ECG embeddings for semantic retrieval and ECG-to-text alignment.",
-                            "Deployed unified multi-head models with <span class='text-slate-900 font-bold'>AWS TorchServe</span>, reducing end-to-end inference latency by <span class='text-emerald-700 font-bold'>28.5%</span>.",
-                            "Optimized serving via TorchScript graph optimization, FP16 inference, and <span class='text-slate-900 font-bold'>NVIDIA Triton dynamic batching</span>.",
-                            "Implemented a multi-stage <span class='text-slate-900 font-bold'>ECG signal quality assessment pipeline</span> (noise detection, wavelet-based SNR, baseline drift), achieving <2ms real-time channel selection and <span class='text-emerald-700 font-bold'>96% agreement with cardiologists</span> (n=1,017).",
-                            "Built CI/CD-native MLOps pipeline with <span class='text-slate-900 font-bold'>Jenkins + CML</span> for automated retraining and metric reporting.",
-                            "Authored model documentation compliant with <span class='text-slate-900 font-bold'>FDA and ISO 13485</span> standards."
+                            "Pretrained an <span class='text-slate-900 font-bold'>ECG foundation model</span> with <span class='text-slate-900 font-bold'>contrastive self-supervised learning (1D ResNet)</span> on large-scale unlabeled ECG and transferred it to beat, rhythm and AFib tasks: <span class='text-emerald-700 font-bold'>95% AFib F1</span>, <span class='text-emerald-700 font-bold'>99% AVB2 F1</span>.",
+                            "Improved ventricular beat F1 by <span class='text-emerald-700 font-bold'>+4 pp</span> and supraventricular beat F1 by <span class='text-emerald-700 font-bold'>+18 pp</span> on <span class='text-slate-900 font-bold'>EC57/MIT</span>; benchmarked every release on 5 public ECG databases.",
+                            "Merged channel, beat and rhythm models into one <span class='text-slate-900 font-bold'>TorchScript</span> graph served with <span class='text-slate-900 font-bold'>TorchServe and NVIDIA Triton</span> on GPU (FP16, dynamic batching), cutting end-to-end latency by <span class='text-emerald-700 font-bold'>28.5%</span>.",
+                            "Built a <span class='text-slate-900 font-bold'>signal-quality pipeline</span> (NumPy/Pandas, noise detection, wavelet SNR, baseline drift): <span class='text-emerald-700 font-bold'>&lt;2 ms</span> channel selection, <span class='text-emerald-700 font-bold'>96% agreement with cardiologists</span> (n=1,017); rejected clinical events cut from <span class='text-emerald-700 font-bold'>9.1% to 3.1%</span>.",
+                            "Co-developed a <span class='text-slate-900 font-bold'>RAG clinical chatbot</span> using pretrained ECG embeddings for semantic retrieval and ECG-to-text alignment.",
+                            "Set up <span class='text-slate-900 font-bold'>Jenkins + CML + DVC</span> retraining with metrics reported in PRs; wrote model documentation compliant with <span class='text-slate-900 font-bold'>FDA and ISO 13485</span>."
                         ]
                     },
                     {
@@ -320,23 +359,37 @@
                         company: "Institute of Telecommunication Technology (VNITT)",
                         period: "06/2024 — 09/2024",
                         bullets: [
-                            "Developed an AI-powered people counting system (<span class='text-slate-900 font-bold'>MobileNetSSD + Centroid Tracking</span>) for real-time movement analysis at 25 FPS.",
-                            "Implemented a multi-camera processing pipeline enabling synchronized tracking across IP cameras.",
-                            "Designed and trained a CNN-based fire detection model with automated alerting (<span class='text-emerald-700 font-bold'>98% accuracy</span>).",
-                            "Built web-based analytics dashboard (Django) and RESTful APIs with <1s end-to-end latency."
+                            "Built multi-camera people counting with <span class='text-slate-900 font-bold'>MobileNetSSD + centroid tracking</span>: <span class='text-emerald-700 font-bold'>95% accuracy at 25 FPS</span> on four simultaneous 1080p streams.",
+                            "Implemented a <span class='text-slate-900 font-bold'>multi-camera processing pipeline</span> enabling synchronized tracking across IP cameras.",
+                            "Trained a <span class='text-slate-900 font-bold'>CNN fire detector</span> (<span class='text-emerald-700 font-bold'>98% accuracy</span>) with automated alerts.",
+                            "Built a <span class='text-slate-900 font-bold'>Django REST</span> analytics dashboard and APIs with <span class='text-emerald-700 font-bold'>&lt;1 s latency</span>, running 24/7."
                         ]
                     }
                 ],
                 "projects": [
                     {
+                        name: "Vietnamese Signboard Recognition",
+                        desc: "Graduation thesis (team of 3): detect signboards, read Vietnamese text, then use an LLM to correct and structure the extracted content.",
+                        repo: "https://github.com/LeDuong2408/sign-recognition",
+                        tags: ["YOLOv8", "ABCNetv2", "VietOCR", "Gemini API", "ELECTRA", "FastAPI", "Docker"],
+                        details: [
+                            "Fine-tuned <span class='text-slate-900 font-bold'>ABCNetv2 text spotting</span>: H-mean <span class='text-emerald-700 font-bold'>80.7% → 94.0%</span>.",
+                            "Fine-tuned <span class='text-slate-900 font-bold'>VietOCR</span>: accuracy <span class='text-emerald-700 font-bold'>78.2% → 93.5%</span>, CER <span class='text-emerald-700 font-bold'>21.8% → 6.7%</span>.",
+                            "Trained <span class='text-slate-900 font-bold'>YOLOv8n</span> signboard detection at <span class='text-emerald-700 font-bold'>89.8% mAP50</span>, exported to ONNX.",
+                            "Used <span class='text-slate-900 font-bold'>Gemini</span> to post-correct OCR output with tag-delimited <span class='text-slate-900 font-bold'>structured responses</span>: WER <span class='text-emerald-700 font-bold'>41.5% → 24.4%</span>.",
+                            "Fine-tuned <span class='text-slate-900 font-bold'>ELECTRA NER</span>: ORG F1 <span class='text-emerald-700 font-bold'>33 → 99</span>.",
+                            "Shipped the full pipeline as a <span class='text-slate-900 font-bold'>Dockerized FastAPI service</span>."
+                        ]
+                    },
+                    {
                         name: "HR CV Scanner (Multi-Agent System)",
-                        desc: "Automated multi-agent CV screening system: upload batch CVs -> parse JD -> match -> report.",
+                        desc: "Automated multi-agent CV screening system: upload batch CVs -> parse JD -> match -> score -> report.",
                         repo: "https://github.com/LeDuong2408/HR-Scan-CV",
                         tags: ["LangGraph", "Gemini API", "RAG", "ChromaDB", "FastAPI"],
                         details: [
-                            "Architected a <span class='text-slate-900 font-bold'>4-node LangGraph agentic pipeline</span> with typed Pydantic v2 state contracts.",
+                            "Architected a <span class='text-slate-900 font-bold'>4-node LangGraph agentic pipeline</span> (parse, match, score, report) with typed Pydantic v2 state contracts.",
                             "Built a RAG layer using <span class='text-slate-900 font-bold'>ChromaDB</span> + all-MiniLM embeddings to retrieve JD requirements and scoring rubrics.",
-                            "Designed a hybrid scoring engine combining programmatic skill matching with LLM evaluation to eliminate score drift.",
+                            "Designed a <span class='text-slate-900 font-bold'>hybrid rule + LLM scoring engine</span> combining programmatic skill matching with LLM evaluation to eliminate score drift.",
                             "Developed a <span class='text-slate-900 font-bold'>FastAPI backend</span> with SSE streaming for real-time pipeline progress and Chainlit chat UI.",
                             "Structured prompt engineering with JSON-only constraints and retry-aware prompt augmentation."
                         ]
@@ -356,28 +409,22 @@
                 ],
                 "otherProjects": [
                     {
+                        name: "Chess AI (AlphaZero-style)",
+                        desc: "Reinforcement-learning chess agent (team of 3): custom environment with shaped rewards, a 19-block ResNet with policy and value heads, and Monte Carlo Tree Search for self-play training.",
+                        repo: "https://github.com/LeDuong2408/Chess-AI",
+                        tags: ["AlphaZero", "MCTS", "PyTorch", "Self-Play"]
+                    },
+                    {
+                        name: "Autonomous Vehicle (Raspberry Pi)",
+                        desc: "Embedded systems project (team of 4). Owned traffic-sign recognition: a lightweight CNN on Raspberry Pi 4 with TensorFlow Lite at 94.4% accuracy, alongside OpenCV lane detection and ultrasonic obstacle avoidance.",
+                        repo: "https://github.com/LeDuong2408/Automation-Vehicle",
+                        tags: ["Raspberry Pi", "TF Lite", "OpenCV", "CNN", "Embedded"]
+                    },
+                    {
                         name: "RAG PDF Chatbot",
                         desc: "Retrieval-augmented question-answering chatbot that lets users query academic papers and get grounded, source-based answers.",
                         repo: "https://github.com/LeDuong2408/Chatbot",
                         tags: ["LangChain", "FastAPI", "Llama-2-7B", "RAG"]
-                    },
-                    {
-                        name: "Sign Recognition & Understanding",
-                        desc: "Multi-stage pipeline detecting and reading signage text, then using an LLM to understand and structure the extracted Vietnamese content.",
-                        repo: "https://github.com/LeDuong2408/sign-recognition",
-                        tags: ["YOLOv8", "ABCNetv2", "VietOCR", "ELECTRA", "Gemini API"]
-                    },
-                    {
-                        name: "Autonomous Vehicle (Raspberry Pi)",
-                        desc: "Self-driving RC vehicle combining CNN-based traffic-sign classification, OpenCV lane detection, and ultrasonic obstacle avoidance.",
-                        repo: "https://github.com/LeDuong2408/Automation-Vehicle",
-                        tags: ["Raspberry Pi", "OpenCV", "CNN", "Embedded"]
-                    },
-                    {
-                        name: "Chess AI (AlphaZero-style)",
-                        desc: "Self-play chess engine combining a deep policy/value network with Monte Carlo Tree Search for position evaluation and move selection.",
-                        repo: "https://github.com/LeDuong2408/Chess-AI",
-                        tags: ["AlphaZero", "MCTS", "PyTorch", "Self-Play"]
                     }
                 ]
             },
@@ -388,13 +435,16 @@
                 "nav-projects": "Dự án",
                 "hero-tag": "Kỹ sư AI | LLM & Hệ thống Agent",
                 "hero-name": "LÊ DƯỠNG",
-                "hero-desc-1": "Kỹ sư AI với hơn 2 năm kinh nghiệm xây dựng các hệ thống AI thực tế, chuyên sâu về pipeline LLM Agent, kiến trúc RAG, điều phối đa tác tử (LangGraph) và Computer Vision.",
-                "hero-desc-2": "Nền tảng vững chắc về <span class='text-slate-900 font-semibold'>Prompt Engineering, Vector Search, trích xuất dữ liệu LLM có cấu trúc và hệ thống mô hình end-to-end.</span>",
+                "hero-desc-1": "Kỹ sư AI với hơn 2 năm kinh nghiệm đưa AI vào production, hiện tập trung vào Large Language Models: bộ nhớ dài hạn, RAG, agent LangGraph và đánh giá LLM. Có nền tảng về Computer Vision, Edge AI và AI y tế.",
+                "hero-desc-2": "Thế mạnh về <span class='text-slate-900 font-semibold'>RAG, tool calling, structured output, prompt engineering và đánh giá LLM</span>, cùng nền tảng kỹ thuật phần mềm vững chắc <span class='text-slate-900 font-semibold'>(async Python, 1.275 test, CI/CD)</span>.",
                 "title-edu": "Học vấn",
                 "edu-uni": "Trường Đại học Sư phạm Kỹ thuật TP.HCM (HCMUTE)",
-                "edu-major": "Chuyên ngành: Trí tuệ nhân tạo",
+                "edu-major": "Cử nhân Trí tuệ nhân tạo",
                 "edu-gpa-label": "Xếp loại học thuật",
                 "edu-date-label": "Thời gian",
+                "edu-coursework": "Môn học tiêu biểu: Deep Learning (A+), Big Data (A+), Hệ thống nhúng (A+), Machine Learning (A), Xử lý ảnh (A)",
+                "edu-cert-label": "Chứng chỉ",
+                "edu-cert": "Fundamentals of Digital Image and Video Processing — Northwestern University (Coursera), 2023",
                 "title-skills": "Kỹ năng chuyên môn",
                 "title-exp": "Kinh nghiệm làm việc",
                 "title-projects": "Dự án tiêu biểu",
@@ -402,41 +452,72 @@
                 "view-all-github": "Xem tất cả dự án trên GitHub",
                 "footer-text": "© 2026 Lê Dưỡng — AI Engineer Portfolio",
                 "skills": [
-                    { icon: "fa-layer-group", label: "Frameworks", value: "LangChain, LangGraph, Transformers, PyTorch, TensorFlow / TFLite, Ultralytics" },
-                    { icon: "fa-language", label: "Mảng NLP", value: "Hệ thống đa tác tử, RAG, Prompt Engineering, Nhận dạng giọng nói (ASR), NER" },
-                    { icon: "fa-eye", label: "Mảng Computer Vision", value: "Object Detection, Multi-Object Tracking, OCR & Text Spotting, Multi-camera Pipeline" },
-                    { icon: "fa-microchip", label: "Tối ưu hóa (Edge)", value: "TorchScript, FP16, Dynamic Batching, xuất RKNN/ONNX, triển khai trên Raspberry Pi" },
-                    { icon: "fa-rocket", label: "MLOps & Triển khai", value: "NVIDIA Triton, TorchServe, Jenkins, CML, DVC, MinIO, Docker" },
-                    { icon: "fa-server", label: "Backend & Cloud", value: "Django REST Framework, FastAPI, REST API, AWS, Azure DevOps" },
-                    { icon: "fa-code", label: "Kỹ thuật phần mềm", value: "Python, Git, SQL Server, C++, Linux, Bash scripting, quản lý GPU" },
-                    { icon: "fa-globe", label: "Ngôn ngữ", value: "Tiếng Việt (Bản ngữ), Tiếng Anh (Chuyên ngành)" }
+                    { icon: "fa-robot", label: "LLM & Agent", value: "LangGraph, LangChain, hệ thống đa tác tử, tool/function calling, MCP, structured output, prompt engineering, reasoning models" },
+                    { icon: "fa-database", label: "Truy xuất & Bộ nhớ", value: "RAG, vector search (Qdrant, ChromaDB), embeddings, bộ nhớ dài hạn" },
+                    { icon: "fa-cloud", label: "Nền tảng & Đánh giá LLM", value: "Azure OpenAI (GPT-4o-mini, GPT-5.x), Azure AI Foundry, Google Gemini, Anthropic Claude; LLM-as-a-judge, golden test sets, Langfuse tracing" },
+                    { icon: "fa-language", label: "NLP & Giọng nói", value: "Transformers, NER, Nhận dạng giọng nói (ASR), Chuyển văn bản thành giọng nói (FastSpeech2, HiFi-GAN)" },
+                    { icon: "fa-eye", label: "Computer Vision & Edge", value: "YOLO (Ultralytics), Deep-SORT tracking, OCR & text spotting, OpenCV, pipeline đa camera, ONNX, RKNN (INT8/FP16), NVIDIA Jetson Orin, Raspberry Pi, TF Lite" },
+                    { icon: "fa-layer-group", label: "ML & Triển khai mô hình", value: "PyTorch, TensorFlow, học tự giám sát & học tăng cường, NumPy, Pandas, TorchScript, TorchServe, NVIDIA Triton (FP16, dynamic batching)" },
+                    { icon: "fa-server", label: "Backend & Cloud", value: "Python (async), FastAPI, Django REST Framework, PostgreSQL, SQL Server, SQLAlchemy/Alembic, Docker, Azure (ML, Service Bus, DevOps), AWS (S3, SQS)" },
+                    { icon: "fa-code", label: "Kỹ thuật phần mềm & MLOps", value: "CI/CD, TDD, mypy, Git, Linux, Bash, Jenkins, CML, DVC, MinIO, ADRs, quản lý GPU, C++ (học thuật); dùng Claude Code & Codex hằng ngày" },
+                    { icon: "fa-globe", label: "Ngôn ngữ", value: "Tiếng Việt (Bản ngữ), Tiếng Anh (Trung cấp — làm việc trực tiếp với khách hàng Mỹ)" }
                 ],
                 "experiences": [
                     {
+                        role: "Kỹ sư AI",
+                        company: "AiDi",
+                        url: "https://www.aidi.world",
+                        period: "07/2026 — Hiện tại",
+                        desc: "Startup AI lấy con người làm trung tâm tại TP.HCM; sản phẩm: REFMI (học tập bằng AI cho học sinh) và Nbrain (người bạn AI có bộ nhớ dài hạn).",
+                        groups: [
+                            {
+                                title: "Nbrain: Bộ nhớ dài hạn & Reflection Chat",
+                                stack: "Python, FastAPI, PostgreSQL, Azure AI Foundry, Gemini, MCP",
+                                bullets: [
+                                    "Xây dựng <span class='text-slate-900 font-bold'>bộ nhớ dài hạn của người dùng</span>: <span class='text-slate-900 font-bold'>pipeline LLM hai giai đoạn</span> biến hội thoại thành bằng chứng trích dẫn và các dữ kiện người dùng có phiên bản, đạt <span class='text-emerald-700 font-bold'>87% trích xuất chính xác</span> với <span class='text-emerald-700 font-bold'>0 ký ức sai (hallucination)</span>.",
+                                    "Câu trả lời cá nhân hóa thắng <span class='text-emerald-700 font-bold'>76% so sánh mù theo cặp</span> bằng <span class='text-slate-900 font-bold'>LLM-as-a-judge</span>; việc đọc bộ nhớ không gọi LLM và nằm trong <span class='text-emerald-700 font-bold'>ngân sách 3 s</span>, nên lỗi bộ nhớ không bao giờ chặn câu trả lời.",
+                                    "Thiết kế <span class='text-slate-900 font-bold'>luồng reflection chat</span> và prompt thấu cảm dựa trên CBT/ACT/DBT; giảm độ trễ mỗi lượt từ <span class='text-emerald-700 font-bold'>21,5 s xuống 8,3 s</span> nhờ gọi LLM song song và tinh chỉnh reasoning effort.",
+                                    "Xây dựng <span class='text-slate-900 font-bold'>RAG có tool calling</span> và hỏi-đáp có trích nguồn trên <span class='text-slate-900 font-bold'>Qdrant vector search</span>; để hạn chế hallucination, mọi nhận định phải trích bằng chứng đã truy xuất và nhận định có trích dẫn không khớp sẽ bị loại, giúp số nhận định có trích dẫn tăng <span class='text-emerald-700 font-bold'>3,5×</span> và bằng chứng truy xuất bị bỏ phí giảm từ <span class='text-emerald-700 font-bold'>79% xuống 40%</span>.",
+                                    "Đưa lên production cho <span class='text-emerald-700 font-bold'>60 người dùng nội bộ</span> với <span class='text-slate-900 font-bold'>MCP server</span>, API bộ nhớ (xem, sửa, quên, xuất, xóa), hàng đợi job trên Postgres và <span class='text-slate-900 font-bold'>CI/CD lên Azure</span>; <span class='text-emerald-700 font-bold'>1.275 test, độ phủ 98%</span>; dùng <span class='text-slate-900 font-bold'>Langfuse</span> tracing để giám sát, debug và tinh chỉnh prompt."
+                                ]
+                            },
+                            {
+                                title: "REFMI: Gia sư bài tập AI & Wellbeing Chat",
+                                stack: "LangGraph, Azure OpenAI (GPT-4o-mini, GPT-5.x), Chainlit",
+                                bullets: [
+                                    "Xây dựng cơ chế thích ứng theo người học cho <span class='text-slate-900 font-bold'>agent gia sư Socratic</span>: LLM chẩn đoán từng lượt, code tất định quyết định mức hỗ trợ, <span class='text-emerald-700 font-bold'>không tốn thêm lần gọi LLM nào</span> (không tăng chi phí LLM).",
+                                    "Nâng tỷ lệ hành vi gia sư đúng mức hỗ trợ từ <span class='text-emerald-700 font-bold'>53% lên 95%</span> bằng <span class='text-slate-900 font-bold'>prompt riêng cho từng mức và cơ chế tự sửa có kiểm chứng</span>; ở mức khó nhất từ <span class='text-emerald-700 font-bold'>20% lên 100%</span>.",
+                                    "Thêm <span class='text-slate-900 font-bold'>guardrail chống lộ đáp án</span> và <span class='text-slate-900 font-bold'>quay lui kiến thức nền</span> để gia sư dẫn dắt học sinh thay vì giải hộ."
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         role: "Kỹ sư AI (Hợp đồng)",
                         company: "FOIS ICT Pro",
-                        period: "04/2026 — Hiện tại",
-                        desc: "Công ty công nghệ chuyên cung cấp các giải pháp ICT và phát triển phần mềm.",
+                        url: "https://foisictpro.com/en/",
+                        period: "04/2026 — 06/2026",
+                        desc: "Công ty giải pháp ICT; dự án: AI phân loại chất lượng cherry trên dây chuyền đóng gói. Làm việc trực tiếp bằng tiếng Anh với khách hàng Mỹ trong suốt dự án.",
                         bullets: [
-                            "Xây dựng pipeline phát hiện đối tượng với <span class='text-slate-900 font-bold'>YOLOv11 và theo dõi đa đối tượng Deep-SORT</span> dùng trong giám sát nông nghiệp thời gian thực.",
-                            "Thiết lập quy trình gán nhãn bán tự động và thúc đẩy các chu kỳ huấn luyện lại mô hình để đảm bảo chất lượng dữ liệu.",
-                            "Xuất mô hình phát hiện đối tượng sang định dạng <span class='text-slate-900 font-bold'>ONNX và RKNN</span> để triển khai trên các thiết bị Edge đa nền tảng.",
-                            "Xây dựng hệ thống MLOps backend end-to-end tích hợp <span class='text-slate-900 font-bold'>Azure Service Bus & Azure ML</span> phục vụ suy luận bất đồng bộ và tự động hóa huấn luyện."
+                            "Huấn luyện <span class='text-slate-900 font-bold'>YOLO11-L</span> phát hiện và phân loại cherry thành 4 lớp chất lượng, đạt <span class='text-emerald-700 font-bold'>0.952 mAP50 / 0.928 mAP50-95</span>, triển khai trên <span class='text-slate-900 font-bold'>Azure</span>; mô hình 2 lớp tốt/lỗi đạt <span class='text-emerald-700 font-bold'>0.985 mAP50</span>.",
+                            "Mở rộng bộ dữ liệu lên <span class='text-emerald-700 font-bold'>3.584 ảnh và ~119k đối tượng gán nhãn</span> qua 7 phiên bản và 12 lần fine-tune trong 8 tuần, nhờ quy trình <span class='text-slate-900 font-bold'>gán nhãn bán tự động</span>, <span class='text-slate-900 font-bold'>Grounding DINO</span> và khai thác mẫu khó trên Roboflow.",
+                            "Xuất mô hình sang <span class='text-slate-900 font-bold'>ONNX và RKNN (INT8/FP16)</span> cho <span class='text-slate-900 font-bold'>NPU Rockchip RK3588</span> bằng toolchain Docker; huấn luyện và kiểm thử trên GPU NVIDIA Jetson Orin.",
+                            "Xây dựng <span class='text-slate-900 font-bold'>backend MLOps trên Azure</span> (Service Bus, Azure Machine Learning): suy luận bất đồng bộ, <span class='text-slate-900 font-bold'>theo dõi Deep-SORT</span> thời gian thực qua các đoạn video, job huấn luyện lại và đăng ký mô hình."
                         ]
                     },
                     {
                         role: "Kỹ sư AI",
                         company: "IMPACT TECHNICAL RESOURCES (ITRVN)",
+                        url: "https://www.itrvn.com/",
                         period: "10/2024 — 03/2026",
-                        desc: "Công ty MedTech chuyên về giải pháp sức khỏe kỹ thuật số và thiết bị y tế.",
+                        desc: "Công ty MedTech (sức khỏe số, thiết bị y tế) phát triển AI ECG cho Holter; báo cáo trực tiếp cho CEO và AI lead (hơn 20 năm kinh nghiệm AI y tế).",
                         bullets: [
-                            "Huấn luyện trước (Pretrain) mô hình nền tảng chuỗi thời gian bằng <span class='text-slate-900 font-bold'>học tự giám sát (1D ResNet)</span> trên tập dữ liệu ECG lớn — cải thiện F1 nhịp thất <span class='text-emerald-700 font-bold'>+4pp</span> và F1 nhịp trên thất <span class='text-emerald-700 font-bold'>+18pp</span> trên EC57/MIT, đạt <span class='text-emerald-700 font-bold'>F1-score 95% phát hiện Rung nhĩ (AFib)</span> và 98–100% F1 trên AVB2.",
-                            "Đồng phát triển <span class='text-slate-900 font-bold'>chatbot lâm sàng dựa trên RAG</span> tận dụng vector đặc trưng của ECG để truy xuất ngữ nghĩa và căn chỉnh ECG-văn bản.",
-                            "Triển khai các mô hình đa nhiệm lên <span class='text-slate-900 font-bold'>AWS TorchServe</span>, giảm <span class='text-emerald-700 font-bold'>28.5%</span> độ trễ suy luận end-to-end.",
-                            "Tối ưu hóa serving thông qua TorchScript, FP16 và <span class='text-slate-900 font-bold'>NVIDIA Triton dynamic batching</span>.",
-                            "Xây dựng pipeline <span class='text-slate-900 font-bold'>đánh giá chất lượng tín hiệu ECG</span> đa giai đoạn (phát hiện nhiễu, SNR theo wavelet, trôi baseline), đạt thời gian chọn kênh thực <2ms và <span class='text-emerald-700 font-bold'>96% đồng thuận với bác sĩ tim mạch</span> (n=1.017).",
-                            "Xây dựng pipeline CI/CD MLOps với <span class='text-slate-900 font-bold'>Jenkins + CML</span> để tự động huấn luyện lại và báo cáo metric.",
-                            "Soạn thảo tài liệu mô hình tuân thủ các tiêu chuẩn y tế khắt khe của <span class='text-slate-900 font-bold'>FDA và ISO 13485</span>."
+                            "Pretrain <span class='text-slate-900 font-bold'>mô hình nền tảng ECG</span> bằng <span class='text-slate-900 font-bold'>học tự giám sát tương phản (1D ResNet)</span> trên tập ECG lớn chưa gán nhãn, rồi chuyển giao sang các bài toán nhịp, rhythm và AFib: <span class='text-emerald-700 font-bold'>F1 AFib 95%</span>, <span class='text-emerald-700 font-bold'>F1 AVB2 99%</span>.",
+                            "Cải thiện F1 nhịp thất <span class='text-emerald-700 font-bold'>+4 pp</span> và F1 nhịp trên thất <span class='text-emerald-700 font-bold'>+18 pp</span> trên <span class='text-slate-900 font-bold'>EC57/MIT</span>; đánh giá mỗi phiên bản trên 5 bộ dữ liệu ECG công khai.",
+                            "Gộp các mô hình kênh, nhịp và rhythm thành một graph <span class='text-slate-900 font-bold'>TorchScript</span>, phục vụ bằng <span class='text-slate-900 font-bold'>TorchServe và NVIDIA Triton</span> trên GPU (FP16, dynamic batching), giảm <span class='text-emerald-700 font-bold'>28,5%</span> độ trễ end-to-end.",
+                            "Xây dựng <span class='text-slate-900 font-bold'>pipeline đánh giá chất lượng tín hiệu</span> (NumPy/Pandas, phát hiện nhiễu, SNR theo wavelet, trôi baseline): chọn kênh trong <span class='text-emerald-700 font-bold'>&lt;2 ms</span>, <span class='text-emerald-700 font-bold'>96% đồng thuận với bác sĩ tim mạch</span> (n=1.017); tỷ lệ sự kiện lâm sàng bị loại giảm từ <span class='text-emerald-700 font-bold'>9,1% xuống 3,1%</span>.",
+                            "Đồng phát triển <span class='text-slate-900 font-bold'>chatbot lâm sàng dựa trên RAG</span> dùng embedding ECG đã pretrain để truy xuất ngữ nghĩa và căn chỉnh ECG-văn bản.",
+                            "Thiết lập huấn luyện lại với <span class='text-slate-900 font-bold'>Jenkins + CML + DVC</span>, báo cáo metric ngay trong PR; soạn tài liệu mô hình tuân thủ <span class='text-slate-900 font-bold'>FDA và ISO 13485</span>."
                         ]
                     },
                     {
@@ -444,23 +525,37 @@
                         company: "Viện Công nghệ Viễn thông (VNITT)",
                         period: "06/2024 — 09/2024",
                         bullets: [
-                            "Phát triển hệ thống đếm và theo dõi người thời gian thực (<span class='text-slate-900 font-bold'>MobileNetSSD + Centroid Tracking</span>) đạt tốc độ 25 FPS.",
-                            "Triển khai pipeline xử lý đa camera để đồng bộ hóa theo dõi trên nhiều camera IP.",
-                            "Thiết kế và huấn luyện mô hình phát hiện hỏa hoạn dựa trên CNN tích hợp cảnh báo tự động (<span class='text-emerald-700 font-bold'>độ chính xác 98%</span>).",
-                            "Xây dựng dashboard phân tích trên web (Django) và RESTful APIs với độ trễ dưới 1s."
+                            "Xây dựng hệ thống đếm người đa camera với <span class='text-slate-900 font-bold'>MobileNetSSD + Centroid Tracking</span>: <span class='text-emerald-700 font-bold'>độ chính xác 95% ở 25 FPS</span> trên bốn luồng 1080p đồng thời.",
+                            "Triển khai <span class='text-slate-900 font-bold'>pipeline xử lý đa camera</span> để đồng bộ hóa theo dõi trên nhiều camera IP.",
+                            "Huấn luyện <span class='text-slate-900 font-bold'>mô hình CNN phát hiện hỏa hoạn</span> (<span class='text-emerald-700 font-bold'>độ chính xác 98%</span>) tích hợp cảnh báo tự động.",
+                            "Xây dựng dashboard phân tích và API bằng <span class='text-slate-900 font-bold'>Django REST</span> với độ trễ <span class='text-emerald-700 font-bold'>&lt;1 s</span>, hoạt động 24/7."
                         ]
                     }
                 ],
                 "projects": [
                     {
+                        name: "Nhận diện bảng hiệu tiếng Việt",
+                        desc: "Khóa luận tốt nghiệp (nhóm 3 người): phát hiện bảng hiệu, đọc chữ tiếng Việt, rồi dùng LLM sửa lỗi và cấu trúc hóa nội dung trích xuất.",
+                        repo: "https://github.com/LeDuong2408/sign-recognition",
+                        tags: ["YOLOv8", "ABCNetv2", "VietOCR", "Gemini API", "ELECTRA", "FastAPI", "Docker"],
+                        details: [
+                            "Fine-tune <span class='text-slate-900 font-bold'>ABCNetv2 text spotting</span>: H-mean <span class='text-emerald-700 font-bold'>80,7% → 94,0%</span>.",
+                            "Fine-tune <span class='text-slate-900 font-bold'>VietOCR</span>: độ chính xác <span class='text-emerald-700 font-bold'>78,2% → 93,5%</span>, CER <span class='text-emerald-700 font-bold'>21,8% → 6,7%</span>.",
+                            "Huấn luyện <span class='text-slate-900 font-bold'>YOLOv8n</span> phát hiện bảng hiệu đạt <span class='text-emerald-700 font-bold'>89,8% mAP50</span>, xuất sang ONNX.",
+                            "Dùng <span class='text-slate-900 font-bold'>Gemini</span> hậu xử lý lỗi OCR với <span class='text-slate-900 font-bold'>structured response</span> phân tách bằng tag: WER <span class='text-emerald-700 font-bold'>41,5% → 24,4%</span>.",
+                            "Fine-tune <span class='text-slate-900 font-bold'>ELECTRA NER</span>: F1 nhãn ORG <span class='text-emerald-700 font-bold'>33 → 99</span>.",
+                            "Đóng gói toàn bộ pipeline thành <span class='text-slate-900 font-bold'>dịch vụ FastAPI chạy trên Docker</span>."
+                        ]
+                    },
+                    {
                         name: "Hệ thống Quét CV Nhân sự (Đa tác tử)",
-                        desc: "Hệ thống sàng lọc CV đa tác tử tự động: Tải CV hàng loạt -> phân tích JD -> đối chiếu -> báo cáo.",
+                        desc: "Hệ thống sàng lọc CV đa tác tử tự động: Tải CV hàng loạt -> phân tích JD -> đối chiếu -> chấm điểm -> báo cáo.",
                         repo: "https://github.com/LeDuong2408/HR-Scan-CV",
                         tags: ["LangGraph", "Gemini API", "RAG", "ChromaDB", "FastAPI"],
                         details: [
-                            "Thiết kế kiến trúc pipeline đa tác tử gồm <span class='text-slate-900 font-bold'>4-node LangGraph</span> với dữ liệu trạng thái chuẩn hóa bằng Pydantic v2.",
+                            "Thiết kế kiến trúc <span class='text-slate-900 font-bold'>pipeline agent 4-node LangGraph</span> (phân tích, đối chiếu, chấm điểm, báo cáo) với dữ liệu trạng thái chuẩn hóa bằng Pydantic v2.",
                             "Xây dựng lớp RAG sử dụng <span class='text-slate-900 font-bold'>ChromaDB</span> và all-MiniLM để truy xuất các yêu cầu của JD và tiêu chí chấm điểm.",
-                            "Thiết kế công cụ chấm điểm lai: kết hợp thuật toán khớp kỹ năng với đánh giá bằng LLM để loại bỏ sự sai lệch (drift) của LLM.",
+                            "Thiết kế <span class='text-slate-900 font-bold'>công cụ chấm điểm lai rule + LLM</span>: kết hợp thuật toán khớp kỹ năng với đánh giá bằng LLM để loại bỏ sự sai lệch (drift) điểm số.",
                             "Phát triển <span class='text-slate-900 font-bold'>FastAPI backend</span> với SSE streaming để theo dõi tiến trình thời gian thực và giao diện chat Chainlit.",
                             "Kỹ thuật Prompt Engineering có cấu trúc với định dạng JSON bắt buộc và cơ chế tự động sửa lỗi (retry-aware)."
                         ]
@@ -480,28 +575,22 @@
                 ],
                 "otherProjects": [
                     {
+                        name: "Chess AI (kiểu AlphaZero)",
+                        desc: "Agent cờ vua học tăng cường (nhóm 3 người): môi trường tự xây với reward shaping, mạng ResNet 19 block có policy head và value head, kết hợp Monte Carlo Tree Search để huấn luyện self-play.",
+                        repo: "https://github.com/LeDuong2408/Chess-AI",
+                        tags: ["AlphaZero", "MCTS", "PyTorch", "Self-Play"]
+                    },
+                    {
+                        name: "Xe tự hành (Raspberry Pi)",
+                        desc: "Đồ án Hệ thống nhúng (nhóm 4 người). Phụ trách nhận diện biển báo giao thông: CNN gọn nhẹ chạy trên Raspberry Pi 4 với TensorFlow Lite, độ chính xác 94,4%, cùng phát hiện làn đường bằng OpenCV và tránh vật cản bằng cảm biến siêu âm.",
+                        repo: "https://github.com/LeDuong2408/Automation-Vehicle",
+                        tags: ["Raspberry Pi", "TF Lite", "OpenCV", "CNN", "Nhúng"]
+                    },
+                    {
                         name: "Chatbot hỏi-đáp tài liệu (RAG)",
                         desc: "Chatbot hỏi-đáp dựa trên RAG cho phép người dùng truy vấn các bài báo học thuật và nhận câu trả lời có trích dẫn nguồn.",
                         repo: "https://github.com/LeDuong2408/Chatbot",
                         tags: ["LangChain", "FastAPI", "Llama-2-7B", "RAG"]
-                    },
-                    {
-                        name: "Nhận diện & Hiểu biển báo/bảng hiệu",
-                        desc: "Pipeline nhiều giai đoạn phát hiện và đọc chữ trên biển báo, sau đó dùng LLM để hiểu và cấu trúc hóa nội dung tiếng Việt trích xuất được.",
-                        repo: "https://github.com/LeDuong2408/sign-recognition",
-                        tags: ["YOLOv8", "ABCNetv2", "VietOCR", "ELECTRA", "Gemini API"]
-                    },
-                    {
-                        name: "Xe tự hành (Raspberry Pi)",
-                        desc: "Xe RC tự hành kết hợp phân loại biển báo giao thông bằng CNN, phát hiện làn đường với OpenCV và tránh vật cản bằng cảm biến siêu âm.",
-                        repo: "https://github.com/LeDuong2408/Automation-Vehicle",
-                        tags: ["Raspberry Pi", "OpenCV", "CNN", "Nhúng"]
-                    },
-                    {
-                        name: "Chess AI (kiểu AlphaZero)",
-                        desc: "Engine cờ vua tự học kết hợp mạng nơ-ron sâu (policy/value network) với Monte Carlo Tree Search để đánh giá thế cờ và chọn nước đi.",
-                        repo: "https://github.com/LeDuong2408/Chess-AI",
-                        tags: ["AlphaZero", "MCTS", "PyTorch", "Self-Play"]
                     }
                 ]
             }
@@ -537,8 +626,17 @@
                         <span class="text-slate-500 text-sm font-medium mono mt-1">${exp.period}</span>
                     </div>
                     ${exp.desc ? `<p class="text-slate-500 text-sm mb-6 italic border-l-2 border-emerald-500/20 pl-4">${exp.desc}</p>` : ''}
+                    ${(exp.groups || []).map(g => `
+                        <div class="mb-8 last:mb-0">
+                            <h4 class="text-lg font-bold text-slate-900">${g.title}</h4>
+                            <p class="text-slate-400 text-xs mono mt-1 mb-4">${g.stack}</p>
+                            <ul class="space-y-4 text-slate-600 text-[15px] leading-relaxed">
+                                ${g.bullets.map(b => `<li class="flex gap-3"><span class="text-emerald-600 shrink-0">▹</span><span>${b}</span></li>`).join('')}
+                            </ul>
+                        </div>
+                    `).join('')}
                     <ul class="space-y-4 text-slate-600 text-[15px] leading-relaxed">
-                        ${exp.bullets.map(b => `<li class="flex gap-3"><span class="text-emerald-600 shrink-0">▹</span><span>${b}</span></li>`).join('')}
+                        ${(exp.bullets || []).map(b => `<li class="flex gap-3"><span class="text-emerald-600 shrink-0">▹</span><span>${b}</span></li>`).join('')}
                     </ul>
                 </div>
             `).join('');
